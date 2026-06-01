@@ -30,6 +30,20 @@ adb logcat -v time ChatRepository:V ChatViewModel:V Firebase:V Firestore:V Stora
 - scripts/extract_logs.ps1
 - docs/FIREBASE_CHECKS.md
 
+Changelog
+-------
+- v0.1.0 — 2026-06-01
+  - Fix: attachments upload failing with Storage 404 — added detailed logging of `bucket` and `path` in `ChatRepository`.
+  - Fix: prevent upload when no active session or no network in `ChatViewModel`.
+  - Feature: retry UI for failed uploads (Snackbar with "Повторить") in `ChatFragment`.
+  - Improvement: compress image bytes before upload and use `putBytes` with better error handling.
+  - Docs: `docs/FIREBASE_CHECKS.md` and `PR_DESCRIPTION.md` updated with reproduction steps and Firebase checks.
+  - Tooling: `scripts/extract_logs.ps1` for extracting relevant log entries (UTF-16 aware).
+
+Commit message suggestion
+------------------------
+`Fix attachments upload: add logging, pre-checks, retry UI, docs`
+
 Шаблон описания PR (скопировать в поле PR)
 Title: Fix attachments upload + add retry UI + add logs
 Body:
