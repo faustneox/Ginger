@@ -40,6 +40,15 @@
                 android:textColor="@color/text_primary"
                 android:textSize="22sp"
                 android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/buttonOpenChat"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Открыть чат"
+                android:padding="8dp"
+                android:src="@android:drawable/ic_menu_send" />
         </LinearLayout>
 
         <!-- Error banner (fade in/out like in AdminRoles) -->

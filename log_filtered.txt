@@ -1,0 +1,1600 @@
+﻿---- MATCH at line 16 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): uploadAttachment failed
+06-01 19:36:20.170 E/ChatViewModel(26146): com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+---- MATCH at line 17 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+---- MATCH at line 18 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+---- MATCH at line 19 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+---- MATCH at line 20 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:142)
+---- MATCH at line 21 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:142)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+---- MATCH at line 22 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:142)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+---- MATCH at line 23 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:142)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+---- MATCH at line 24 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 25 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Handler.handleCallback(Handler.java:1070)
+---- MATCH at line 26 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+---- MATCH at line 27 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+---- MATCH at line 28 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Looper.loopOnce(Looper.java:288)
+---- MATCH at line 29 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Looper.loop(Looper.java:392)
+---- MATCH at line 30 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+---- MATCH at line 31 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.lang.reflect.Method.invoke(Native Method)
+---- MATCH at line 32 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+---- MATCH at line 33 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+---- MATCH at line 34 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:36:20.170 E/ChatViewModel(26146): Caused by: java.io.IOException: The server has terminated the upload session
+---- MATCH at line 35 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:36:20.170 E/ChatViewModel(26146): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+---- MATCH at line 36 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:36:20.170 E/ChatViewModel(26146): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+---- MATCH at line 37 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+---- MATCH at line 38 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+---- MATCH at line 39 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+---- MATCH at line 40 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+---- MATCH at line 41 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 42 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+---- MATCH at line 43 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+---- MATCH at line 44 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+---- MATCH at line 45 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 46 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.lang.Thread.run(Thread.java:1563)
+---- MATCH at line 47 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:36:20.170 E/ChatViewModel(26146): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+---- MATCH at line 48 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:36:20.170 E/ChatViewModel(26146): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+---- MATCH at line 49 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:36:20.170 E/ChatViewModel(26146): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+---- MATCH at line 50 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+---- MATCH at line 51 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+---- MATCH at line 52 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+---- MATCH at line 53 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+---- MATCH at line 54 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+---- MATCH at line 55 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+---- MATCH at line 56 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+---- MATCH at line 57 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+---- MATCH at line 58 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	... 9 more
+---- MATCH at line 59 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	... 9 more
+06-01 19:36:20.171 W/Firestore(26146): (26.2.0) [WriteStream]: (c740abb) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+---- MATCH at line 60 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:36:20.170 E/ChatViewModel(26146): 	... 9 more
+06-01 19:36:20.171 W/Firestore(26146): (26.2.0) [WriteStream]: (c740abb) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+06-01 19:36:20.177 W/Firestore(26146): (26.2.0) [WatchStream]: (a401216) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+---- MATCH at line 61 ----
+06-01 19:36:20.170 E/ChatViewModel(26146): 	... 9 more
+06-01 19:36:20.171 W/Firestore(26146): (26.2.0) [WriteStream]: (c740abb) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+06-01 19:36:20.177 W/Firestore(26146): (26.2.0) [WatchStream]: (a401216) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+06-01 19:36:21.091 W/Firestore(26146): (26.2.0) [WriteStream]: (c740abb) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+---- MATCH at line 72 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): uploadAttachment failed
+06-01 19:36:27.327 E/ChatViewModel(26146): com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+---- MATCH at line 73 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+---- MATCH at line 74 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+---- MATCH at line 75 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+---- MATCH at line 76 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:142)
+---- MATCH at line 77 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:142)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+---- MATCH at line 78 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:142)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+---- MATCH at line 79 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:142)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+---- MATCH at line 80 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 81 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Handler.handleCallback(Handler.java:1070)
+---- MATCH at line 82 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+---- MATCH at line 83 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+---- MATCH at line 84 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Looper.loopOnce(Looper.java:288)
+---- MATCH at line 85 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Looper.loop(Looper.java:392)
+---- MATCH at line 86 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+---- MATCH at line 87 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.lang.reflect.Method.invoke(Native Method)
+---- MATCH at line 88 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+---- MATCH at line 89 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+---- MATCH at line 90 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:36:27.327 E/ChatViewModel(26146): Caused by: java.io.IOException: The server has terminated the upload session
+---- MATCH at line 91 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:36:27.327 E/ChatViewModel(26146): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+---- MATCH at line 92 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:36:27.327 E/ChatViewModel(26146): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+---- MATCH at line 93 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+---- MATCH at line 94 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+---- MATCH at line 95 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+---- MATCH at line 96 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+---- MATCH at line 97 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 98 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+---- MATCH at line 99 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+---- MATCH at line 100 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+---- MATCH at line 101 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 102 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.lang.Thread.run(Thread.java:1563)
+---- MATCH at line 103 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:36:27.327 E/ChatViewModel(26146): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+---- MATCH at line 104 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:36:27.327 E/ChatViewModel(26146): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+---- MATCH at line 105 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:36:27.327 E/ChatViewModel(26146): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+---- MATCH at line 106 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+---- MATCH at line 107 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+---- MATCH at line 108 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+---- MATCH at line 109 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+---- MATCH at line 110 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+---- MATCH at line 111 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+---- MATCH at line 112 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+---- MATCH at line 113 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+---- MATCH at line 114 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	... 9 more
+---- MATCH at line 115 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	... 9 more
+06-01 19:36:27.525 W/Firestore(26146): (26.2.0) [WriteStream]: (c740abb) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+---- MATCH at line 116 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:36:27.327 E/ChatViewModel(26146): 	... 9 more
+06-01 19:36:27.525 W/Firestore(26146): (26.2.0) [WriteStream]: (c740abb) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+06-01 19:36:27.530 W/Firestore(26146): (26.2.0) [WatchStream]: (a401216) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+---- MATCH at line 117 ----
+06-01 19:36:27.327 E/ChatViewModel(26146): 	... 9 more
+06-01 19:36:27.525 W/Firestore(26146): (26.2.0) [WriteStream]: (c740abb) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+06-01 19:36:27.530 W/Firestore(26146): (26.2.0) [WatchStream]: (a401216) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+06-01 19:36:28.244 W/Firestore(26146): (26.2.0) [WatchStream]: (a401216) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+---- MATCH at line 127 ----
+06-01 19:36:36.110 W/Firestore(26146): (26.2.0) [WatchStream]: (a401216) Stream closed with status: Status{code=UNAVAILABLE, description=Unable to resolve host firestore.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:36:36.110 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+06-01 19:36:36.110 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+06-01 19:36:36.110 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+---- MATCH at line 134 ----
+06-01 19:36:36.110 W/Firestore(26146): Caused by: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:36:36.110 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+06-01 19:36:36.110 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+06-01 19:36:36.110 W/Firestore(26146): 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+---- MATCH at line 142 ----
+06-01 19:36:38.318 W/Firestore(26146): (26.2.0) [WriteStream]: (c740abb) Stream closed with status: Status{code=UNAVAILABLE, description=Unable to resolve host firestore.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:36:38.318 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+06-01 19:36:38.318 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+06-01 19:36:38.318 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+---- MATCH at line 149 ----
+06-01 19:36:38.318 W/Firestore(26146): Caused by: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:36:38.318 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+06-01 19:36:38.318 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+06-01 19:36:38.318 W/Firestore(26146): 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+---- MATCH at line 164 ----
+06-01 19:36:43.156 W/Firestore(26146): (26.2.0) [WatchStream]: (a401216) Stream closed with status: Status{code=UNAVAILABLE, description=Unable to resolve host firestore.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:36:43.156 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+06-01 19:36:43.156 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+06-01 19:36:43.156 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+---- MATCH at line 171 ----
+06-01 19:36:43.156 W/Firestore(26146): Caused by: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:36:43.156 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+06-01 19:36:43.156 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+06-01 19:36:43.156 W/Firestore(26146): 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+---- MATCH at line 186 ----
+06-01 19:36:44.797 W/Firestore(26146): (26.2.0) [WriteStream]: (c740abb) Stream closed with status: Status{code=UNAVAILABLE, description=Unable to resolve host firestore.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:36:44.797 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+06-01 19:36:44.797 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+06-01 19:36:44.797 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+---- MATCH at line 193 ----
+06-01 19:36:44.797 W/Firestore(26146): Caused by: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:36:44.797 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+06-01 19:36:44.797 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+06-01 19:36:44.797 W/Firestore(26146): 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+---- MATCH at line 208 ----
+06-01 19:36:49.794 W/Firestore(26146): (26.2.0) [WatchStream]: (a401216) Stream closed with status: Status{code=UNAVAILABLE, description=Unable to resolve host firestore.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:36:49.794 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+06-01 19:36:49.794 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+06-01 19:36:49.794 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+---- MATCH at line 215 ----
+06-01 19:36:49.794 W/Firestore(26146): Caused by: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:36:49.794 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+06-01 19:36:49.794 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+06-01 19:36:49.794 W/Firestore(26146): 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+---- MATCH at line 230 ----
+06-01 19:36:56.939 W/Firestore(26146): (26.2.0) [WriteStream]: (c740abb) Stream closed with status: Status{code=UNAVAILABLE, description=Unable to resolve host firestore.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:36:56.939 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+06-01 19:36:56.939 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+06-01 19:36:56.939 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+---- MATCH at line 237 ----
+06-01 19:36:56.939 W/Firestore(26146): Caused by: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:36:56.939 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+06-01 19:36:56.939 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+06-01 19:36:56.939 W/Firestore(26146): 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+---- MATCH at line 252 ----
+06-01 19:36:56.958 W/Firestore(26146): (26.2.0) [WatchStream]: (a401216) Stream closed with status: Status{code=UNAVAILABLE, description=Unable to resolve host firestore.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:36:56.958 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+06-01 19:36:56.958 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+06-01 19:36:56.958 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+---- MATCH at line 259 ----
+06-01 19:36:56.958 W/Firestore(26146): Caused by: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:36:56.958 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+06-01 19:36:56.958 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+06-01 19:36:56.958 W/Firestore(26146): 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+---- MATCH at line 274 ----
+06-01 19:37:08.351 W/Firestore(26146): (26.2.0) [WriteStream]: (c740abb) Stream closed with status: Status{code=UNAVAILABLE, description=Unable to resolve host firestore.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:37:08.351 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+06-01 19:37:08.351 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+06-01 19:37:08.351 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+---- MATCH at line 281 ----
+06-01 19:37:08.351 W/Firestore(26146): Caused by: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:37:08.351 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+06-01 19:37:08.351 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+06-01 19:37:08.351 W/Firestore(26146): 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+---- MATCH at line 296 ----
+06-01 19:37:22.588 W/Firestore(26146): (26.2.0) [WatchStream]: (a401216) Stream closed with status: Status{code=UNAVAILABLE, description=Unable to resolve host firestore.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:37:22.588 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+06-01 19:37:22.588 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+06-01 19:37:22.588 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+---- MATCH at line 303 ----
+06-01 19:37:22.588 W/Firestore(26146): Caused by: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:37:22.588 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+06-01 19:37:22.588 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+06-01 19:37:22.588 W/Firestore(26146): 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+---- MATCH at line 318 ----
+06-01 19:37:24.631 W/Firestore(26146): (26.2.0) [WriteStream]: (c740abb) Stream closed with status: Status{code=UNAVAILABLE, description=Unable to resolve host firestore.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:37:24.631 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+06-01 19:37:24.631 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+06-01 19:37:24.631 W/Firestore(26146): 	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+---- MATCH at line 325 ----
+06-01 19:37:24.631 W/Firestore(26146): Caused by: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:37:24.631 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+06-01 19:37:24.631 W/Firestore(26146): 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+06-01 19:37:24.631 W/Firestore(26146): 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+---- MATCH at line 370 ----
+06-01 19:49:40.436 W/Firestore(  365): (26.2.0) [WriteStream]: (c181643) Stream closed with status: Status{code=UNAVAILABLE, description=Unable to resolve host firestore.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:49:40.436 W/Firestore(  365): 	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+06-01 19:49:40.436 W/Firestore(  365): 	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+06-01 19:49:40.436 W/Firestore(  365): 	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+---- MATCH at line 377 ----
+06-01 19:49:40.436 W/Firestore(  365): Caused by: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+06-01 19:49:40.436 W/Firestore(  365): 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+06-01 19:49:40.436 W/Firestore(  365): 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+06-01 19:49:40.436 W/Firestore(  365): 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+---- MATCH at line 404 ----
+06-01 19:59:09.837 D/ChatRepository(  365): uploadAttachment: bucket=gingerfoxaatelie.firebasestorage.app path=requests/2/attachments/1780333149826_image_1531 mime=image/jpeg uri=content://com.android.providers.media.documents/document/image%3A1531
+06-01 19:59:10.070 W/Firestore(  365): (26.2.0) [WriteStream]: (c181643) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+06-01 19:59:10.106 W/Firestore(  365): (26.2.0) [WatchStream]: (7dc14c0) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+06-01 19:59:10.334 W/Firestore(  365): (26.2.0) [WriteStream]: (c181643) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+---- MATCH at line 410 ----
+06-01 19:59:11.032 E/ChatRepository(  365): Upload failed for path=requests/2/attachments/1780333149826_image_1531 bucket=gingerfoxaatelie.firebasestorage.app
+06-01 19:59:11.032 E/ChatRepository(  365): com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+---- MATCH at line 411 ----
+06-01 19:59:11.032 E/ChatRepository(  365): com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+---- MATCH at line 412 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+---- MATCH at line 413 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+---- MATCH at line 414 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+---- MATCH at line 415 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+---- MATCH at line 416 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+---- MATCH at line 417 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+---- MATCH at line 418 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 419 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+---- MATCH at line 420 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+---- MATCH at line 421 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+---- MATCH at line 422 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+---- MATCH at line 423 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Looper.loop(Looper.java:392)
+---- MATCH at line 424 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+---- MATCH at line 425 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+---- MATCH at line 426 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+---- MATCH at line 427 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+---- MATCH at line 428 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:59:11.032 E/ChatRepository(  365): Caused by: java.io.IOException: The server has terminated the upload session
+---- MATCH at line 429 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:59:11.032 E/ChatRepository(  365): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+---- MATCH at line 430 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:59:11.032 E/ChatRepository(  365): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+---- MATCH at line 431 ----
+06-01 19:59:11.032 E/ChatRepository(  365): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+---- MATCH at line 432 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+---- MATCH at line 433 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+---- MATCH at line 434 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+---- MATCH at line 435 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 436 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+---- MATCH at line 437 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+---- MATCH at line 438 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+---- MATCH at line 439 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 440 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.lang.Thread.run(Thread.java:1563)
+---- MATCH at line 441 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:59:11.032 E/ChatRepository(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+---- MATCH at line 442 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:59:11.032 E/ChatRepository(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+---- MATCH at line 443 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:59:11.032 E/ChatRepository(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+---- MATCH at line 444 ----
+06-01 19:59:11.032 E/ChatRepository(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+---- MATCH at line 445 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+---- MATCH at line 446 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+---- MATCH at line 447 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+---- MATCH at line 448 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+---- MATCH at line 449 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+---- MATCH at line 450 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+---- MATCH at line 451 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+---- MATCH at line 452 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:59:11.032 E/ChatRepository(  365): 	... 9 more
+---- MATCH at line 453 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:59:11.032 E/ChatRepository(  365): 	... 9 more
+06-01 19:59:11.034 E/ChatViewModel(  365): uploadAttachment failed
+---- MATCH at line 454 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:59:11.032 E/ChatRepository(  365): 	... 9 more
+06-01 19:59:11.034 E/ChatViewModel(  365): uploadAttachment failed
+06-01 19:59:11.034 E/ChatViewModel(  365): java.lang.Exception: Upload failed for bucket=gingerfoxaatelie.firebasestorage.app path=requests/2/attachments/1780333149826_image_1531: Object does not exist at location.
+---- MATCH at line 455 ----
+06-01 19:59:11.032 E/ChatRepository(  365): 	... 9 more
+06-01 19:59:11.034 E/ChatViewModel(  365): uploadAttachment failed
+06-01 19:59:11.034 E/ChatViewModel(  365): java.lang.Exception: Upload failed for bucket=gingerfoxaatelie.firebasestorage.app path=requests/2/attachments/1780333149826_image_1531: Object does not exist at location.
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$uploadAttachment$2.invokeSuspend(ChatRepository.kt:140)
+---- MATCH at line 456 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): uploadAttachment failed
+06-01 19:59:11.034 E/ChatViewModel(  365): java.lang.Exception: Upload failed for bucket=gingerfoxaatelie.firebasestorage.app path=requests/2/attachments/1780333149826_image_1531: Object does not exist at location.
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$uploadAttachment$2.invokeSuspend(ChatRepository.kt:140)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+---- MATCH at line 457 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): java.lang.Exception: Upload failed for bucket=gingerfoxaatelie.firebasestorage.app path=requests/2/attachments/1780333149826_image_1531: Object does not exist at location.
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$uploadAttachment$2.invokeSuspend(ChatRepository.kt:140)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+---- MATCH at line 458 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$uploadAttachment$2.invokeSuspend(ChatRepository.kt:140)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+---- MATCH at line 459 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+---- MATCH at line 460 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+---- MATCH at line 461 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+---- MATCH at line 462 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+---- MATCH at line 463 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+---- MATCH at line 464 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+06-01 19:59:11.034 E/ChatViewModel(  365): Caused by: com.google.firebase.storage.StorageException: Object does not exist at location.
+---- MATCH at line 465 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+06-01 19:59:11.034 E/ChatViewModel(  365): Caused by: com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+---- MATCH at line 466 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+06-01 19:59:11.034 E/ChatViewModel(  365): Caused by: com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+---- MATCH at line 467 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): Caused by: com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+---- MATCH at line 468 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+---- MATCH at line 469 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+---- MATCH at line 470 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+---- MATCH at line 471 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+---- MATCH at line 472 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+---- MATCH at line 473 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+---- MATCH at line 474 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 475 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+---- MATCH at line 476 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+---- MATCH at line 477 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+---- MATCH at line 478 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+---- MATCH at line 479 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Looper.loop(Looper.java:392)
+---- MATCH at line 480 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+---- MATCH at line 481 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+---- MATCH at line 482 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+---- MATCH at line 483 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+---- MATCH at line 484 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:59:11.034 E/ChatViewModel(  365): Caused by: java.io.IOException: The server has terminated the upload session
+---- MATCH at line 485 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:59:11.034 E/ChatViewModel(  365): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+---- MATCH at line 486 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:59:11.034 E/ChatViewModel(  365): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+---- MATCH at line 487 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+---- MATCH at line 488 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+---- MATCH at line 489 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+---- MATCH at line 490 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+---- MATCH at line 491 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 492 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+---- MATCH at line 493 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+---- MATCH at line 494 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+---- MATCH at line 495 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 496 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.lang.Thread.run(Thread.java:1563)
+---- MATCH at line 497 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:59:11.034 E/ChatViewModel(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+---- MATCH at line 498 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:59:11.034 E/ChatViewModel(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+---- MATCH at line 499 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:59:11.034 E/ChatViewModel(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+---- MATCH at line 500 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+---- MATCH at line 501 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+---- MATCH at line 502 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+---- MATCH at line 503 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+---- MATCH at line 504 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+---- MATCH at line 505 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+---- MATCH at line 506 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+---- MATCH at line 507 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+---- MATCH at line 508 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	... 9 more
+---- MATCH at line 509 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	... 9 more
+06-01 19:59:11.271 W/Firestore(  365): (26.2.0) [WriteStream]: (c181643) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+---- MATCH at line 510 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:59:11.034 E/ChatViewModel(  365): 	... 9 more
+06-01 19:59:11.271 W/Firestore(  365): (26.2.0) [WriteStream]: (c181643) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+06-01 19:59:12.115 W/Firestore(  365): (26.2.0) [WatchStream]: (7dc14c0) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+---- MATCH at line 511 ----
+06-01 19:59:11.034 E/ChatViewModel(  365): 	... 9 more
+06-01 19:59:11.271 W/Firestore(  365): (26.2.0) [WriteStream]: (c181643) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+06-01 19:59:12.115 W/Firestore(  365): (26.2.0) [WatchStream]: (7dc14c0) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+06-01 19:59:12.663 W/Firestore(  365): (26.2.0) [WriteStream]: (c181643) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+---- MATCH at line 515 ----
+06-01 19:59:13.354 D/ChatRepository(  365): uploadAttachment: bucket=gingerfoxaatelie.firebasestorage.app path=requests/2/attachments/1780333153336_image_1531 mime=image/jpeg uri=content://com.android.providers.media.documents/document/image%3A1531
+06-01 19:59:13.789 E/ChatRepository(  365): Upload failed for path=requests/2/attachments/1780333153336_image_1531 bucket=gingerfoxaatelie.firebasestorage.app
+06-01 19:59:13.789 E/ChatRepository(  365): com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+---- MATCH at line 516 ----
+06-01 19:59:13.789 E/ChatRepository(  365): Upload failed for path=requests/2/attachments/1780333153336_image_1531 bucket=gingerfoxaatelie.firebasestorage.app
+06-01 19:59:13.789 E/ChatRepository(  365): com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+---- MATCH at line 517 ----
+06-01 19:59:13.789 E/ChatRepository(  365): com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+---- MATCH at line 518 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+---- MATCH at line 519 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+---- MATCH at line 520 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+---- MATCH at line 521 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+---- MATCH at line 522 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+---- MATCH at line 523 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+---- MATCH at line 524 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 525 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+---- MATCH at line 526 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+---- MATCH at line 527 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+---- MATCH at line 528 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+---- MATCH at line 529 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Looper.loop(Looper.java:392)
+---- MATCH at line 530 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+---- MATCH at line 531 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+---- MATCH at line 532 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+---- MATCH at line 533 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+---- MATCH at line 534 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:59:13.789 E/ChatRepository(  365): Caused by: java.io.IOException: The server has terminated the upload session
+---- MATCH at line 535 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:59:13.789 E/ChatRepository(  365): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+---- MATCH at line 536 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:59:13.789 E/ChatRepository(  365): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+---- MATCH at line 537 ----
+06-01 19:59:13.789 E/ChatRepository(  365): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+---- MATCH at line 538 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+---- MATCH at line 539 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+---- MATCH at line 540 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+---- MATCH at line 541 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 542 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+---- MATCH at line 543 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+---- MATCH at line 544 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+---- MATCH at line 545 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 546 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.lang.Thread.run(Thread.java:1563)
+---- MATCH at line 547 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:59:13.789 E/ChatRepository(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+---- MATCH at line 548 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:59:13.789 E/ChatRepository(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+---- MATCH at line 549 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:59:13.789 E/ChatRepository(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+---- MATCH at line 550 ----
+06-01 19:59:13.789 E/ChatRepository(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+---- MATCH at line 551 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+---- MATCH at line 552 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+---- MATCH at line 553 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+---- MATCH at line 554 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+---- MATCH at line 555 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+---- MATCH at line 556 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+---- MATCH at line 557 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+---- MATCH at line 558 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:59:13.789 E/ChatRepository(  365): 	... 9 more
+---- MATCH at line 559 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:59:13.789 E/ChatRepository(  365): 	... 9 more
+06-01 19:59:13.791 E/ChatViewModel(  365): uploadAttachment failed
+---- MATCH at line 560 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:59:13.789 E/ChatRepository(  365): 	... 9 more
+06-01 19:59:13.791 E/ChatViewModel(  365): uploadAttachment failed
+06-01 19:59:13.791 E/ChatViewModel(  365): java.lang.Exception: Upload failed for bucket=gingerfoxaatelie.firebasestorage.app path=requests/2/attachments/1780333153336_image_1531: Object does not exist at location.
+---- MATCH at line 561 ----
+06-01 19:59:13.789 E/ChatRepository(  365): 	... 9 more
+06-01 19:59:13.791 E/ChatViewModel(  365): uploadAttachment failed
+06-01 19:59:13.791 E/ChatViewModel(  365): java.lang.Exception: Upload failed for bucket=gingerfoxaatelie.firebasestorage.app path=requests/2/attachments/1780333153336_image_1531: Object does not exist at location.
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$uploadAttachment$2.invokeSuspend(ChatRepository.kt:140)
+---- MATCH at line 562 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): uploadAttachment failed
+06-01 19:59:13.791 E/ChatViewModel(  365): java.lang.Exception: Upload failed for bucket=gingerfoxaatelie.firebasestorage.app path=requests/2/attachments/1780333153336_image_1531: Object does not exist at location.
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$uploadAttachment$2.invokeSuspend(ChatRepository.kt:140)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+---- MATCH at line 563 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): java.lang.Exception: Upload failed for bucket=gingerfoxaatelie.firebasestorage.app path=requests/2/attachments/1780333153336_image_1531: Object does not exist at location.
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$uploadAttachment$2.invokeSuspend(ChatRepository.kt:140)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+---- MATCH at line 564 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$uploadAttachment$2.invokeSuspend(ChatRepository.kt:140)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+---- MATCH at line 565 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+---- MATCH at line 566 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+---- MATCH at line 567 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+---- MATCH at line 568 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+---- MATCH at line 569 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+---- MATCH at line 570 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+06-01 19:59:13.791 E/ChatViewModel(  365): Caused by: com.google.firebase.storage.StorageException: Object does not exist at location.
+---- MATCH at line 571 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+06-01 19:59:13.791 E/ChatViewModel(  365): Caused by: com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+---- MATCH at line 572 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+06-01 19:59:13.791 E/ChatViewModel(  365): Caused by: com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+---- MATCH at line 573 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): Caused by: com.google.firebase.storage.StorageException: Object does not exist at location.
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+---- MATCH at line 574 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:574)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+---- MATCH at line 575 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.snapStateImpl(UploadTask.java:57)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+---- MATCH at line 576 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.snapState(StorageTask.java:344)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+---- MATCH at line 577 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getFinalResult(StorageTask.java:454)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+---- MATCH at line 578 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.getException(StorageTask.java:314)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+---- MATCH at line 579 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.ginger.android.data.repository.ChatRepository$awaitTask$2$1.onComplete(ChatRepository.kt:156)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+---- MATCH at line 580 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$new$2$com-google-firebase-storage-StorageTask(StorageTask.java:144)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 581 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda2.raise(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+---- MATCH at line 582 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl.lambda$onInternalStateChanged$2$com-google-firebase-storage-TaskListenerImpl(TaskListenerImpl.java:90)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+---- MATCH at line 583 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.TaskListenerImpl$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+---- MATCH at line 584 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Handler.handleCallback(Handler.java:1070)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+---- MATCH at line 585 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Looper.loop(Looper.java:392)
+---- MATCH at line 586 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Looper.dispatchMessage(Looper.java:358)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+---- MATCH at line 587 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Looper.loopOnce(Looper.java:288)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+---- MATCH at line 588 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.os.Looper.loop(Looper.java:392)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+---- MATCH at line 589 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at android.app.ActivityThread.main(ActivityThread.java:10343)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+---- MATCH at line 590 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.lang.reflect.Method.invoke(Native Method)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:59:13.791 E/ChatViewModel(  365): Caused by: java.io.IOException: The server has terminated the upload session
+---- MATCH at line 591 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:605)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:59:13.791 E/ChatViewModel(  365): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+---- MATCH at line 592 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:972)
+06-01 19:59:13.791 E/ChatViewModel(  365): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+---- MATCH at line 593 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): Caused by: java.io.IOException: The server has terminated the upload session
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+---- MATCH at line 594 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.serverStateValid(UploadTask.java:359)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+---- MATCH at line 595 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.shouldContinue(UploadTask.java:325)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+---- MATCH at line 596 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:246)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+---- MATCH at line 597 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask.lambda$getRunnable$7$com-google-firebase-storage-StorageTask(StorageTask.java:1078)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 598 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.storage.StorageTask$$ExternalSyntheticLambda10.run(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+---- MATCH at line 599 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor.lambda$decorate$0$com-google-firebase-concurrent-LimitedConcurrencyExecutor(LimitedConcurrencyExecutor.java:65)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+---- MATCH at line 600 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.LimitedConcurrencyExecutor$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+---- MATCH at line 601 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+---- MATCH at line 602 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.lang.Thread.run(Thread.java:1563)
+---- MATCH at line 603 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:59:13.791 E/ChatViewModel(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+---- MATCH at line 604 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:59:13.791 E/ChatViewModel(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+---- MATCH at line 605 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): 	at java.lang.Thread.run(Thread.java:1563)
+06-01 19:59:13.791 E/ChatViewModel(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+---- MATCH at line 606 ----
+06-01 19:59:13.791 E/ChatViewModel(  365): Caused by: java.io.IOException: {  "error": {    "code": 404,    "message": "Not Found."  }}
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+---- MATCH at line 607 ----
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseResponse(NetworkRequest.java:415)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+---- MATCH at line 608 ----
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.parseErrorResponse(NetworkRequest.java:432)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+---- MATCH at line 609 ----
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.processResponseStream(NetworkRequest.java:423)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+---- MATCH at line 610 ----
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:265)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+---- MATCH at line 611 ----
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.network.NetworkRequest.performRequest(NetworkRequest.java:282)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+---- MATCH at line 612 ----
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:76)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+---- MATCH at line 613 ----
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.internal.ExponentialBackoffSender.sendWithExponentialBackoff(ExponentialBackoffSender.java:68)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+---- MATCH at line 614 ----
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.sendWithRetry(UploadTask.java:527)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	... 9 more
+---- MATCH at line 615 ----
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.beginResumableUpload(UploadTask.java:293)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	... 9 more
+06-01 19:59:14.835 W/Firestore(  365): (26.2.0) [WatchStream]: (7dc14c0) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+---- MATCH at line 616 ----
+06-01 19:59:13.792 E/ChatViewModel(  365): 	at com.google.firebase.storage.UploadTask.run(UploadTask.java:241)
+06-01 19:59:13.792 E/ChatViewModel(  365): 	... 9 more
+06-01 19:59:14.835 W/Firestore(  365): (26.2.0) [WatchStream]: (7dc14c0) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+06-01 19:59:15.108 W/Firestore(  365): (26.2.0) [WriteStream]: (c181643) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+---- MATCH at line 617 ----
+06-01 19:59:13.792 E/ChatViewModel(  365): 	... 9 more
+06-01 19:59:14.835 W/Firestore(  365): (26.2.0) [WatchStream]: (7dc14c0) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+06-01 19:59:15.108 W/Firestore(  365): (26.2.0) [WriteStream]: (c181643) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+06-01 19:59:19.218 W/Firestore(  365): (26.2.0) [WatchStream]: (7dc14c0) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project gingerfoxaatelie before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=gingerfoxaatelie then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
