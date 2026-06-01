@@ -7,6 +7,8 @@ import com.ginger.android.data.repository.ChatRepository
 import com.ginger.android.data.session.SessionManager
 import android.net.Uri
 import android.util.Log
+import com.google.firebase.FirebaseApp
+import com.google.firebase.auth.FirebaseAuth
 import android.widget.Toast
 import android.content.Context
 import android.net.ConnectivityManager
@@ -49,6 +51,11 @@ class ChatViewModel(application: Application) : AndroidViewModel(application) {
     fun uploadAttachmentAndSend(requestId: Long, fileUri: Uri, text: String? = null) {
         val userId = sessionManager.getCurrentUserId()
         viewModelScope.launch {
+            // Log Firebase runtime info for debugging
+            val appInfo = try { FirebaseApp.getInstance().options } catch (e: Exception) { null }
+            val currentUser = try { FirebaseAuth.getInstance().currentUser } catch (e: Exception) { null }
+            Log.d("ChatViewModel", "uploadAttachmentAndSend: requestId=$requestId fileUri=$fileUri currentUser=${currentUser?.uid} projectId=${appInfo?.projectId} storageBucket=${appInfo?.storageBucket}")
+
             // Check session
             if (!sessionManager.hasActiveSession()) {
                 withContext(Dispatchers.Main) {
