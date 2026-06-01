@@ -129,4 +129,5 @@
     <string name="error_load_requests">Не удалось загрузить заявки</string>
     <string name="empty_requests">Пока нет заявок</string>
     <string name="empty_users">Пользователей пока нет</string>
+    <string name="label_attachment">Файл</string>
 </resources>

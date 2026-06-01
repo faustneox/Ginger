@@ -39,7 +39,7 @@ interface RequestDao {
     fun getById(id: Long): RequestEntity?
 
     @Insert
-    fun insert(request: RequestEntity)
+    fun insert(request: RequestEntity): Long
 
     @Update
     fun update(request: RequestEntity)

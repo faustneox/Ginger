@@ -47,6 +47,14 @@
             android:name=".ui.requests.RequestDetailActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.requests.ChatActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.requests.ImagePreviewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Ginger" />
     </application>
 
 </manifest>

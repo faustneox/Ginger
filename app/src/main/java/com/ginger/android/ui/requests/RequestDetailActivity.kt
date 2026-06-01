@@ -18,6 +18,8 @@ import dagger.hilt.android.AndroidEntryPoint
 import com.ginger.android.data.local.RequestEntity
 import com.ginger.android.databinding.ActivityRequestDetailBinding
 import kotlinx.coroutines.launch
+import android.content.Intent
+import com.ginger.android.ui.requests.ChatActivity
 
 @AndroidEntryPoint
 class RequestDetailActivity : BaseActivity() {
@@ -59,6 +61,12 @@ class RequestDetailActivity : BaseActivity() {
     private fun setupListeners() {
         binding.buttonDetailBack.setOnClickListener {
             finish()
+        }
+
+        binding.buttonOpenChat.setOnClickListener {
+            val intent = Intent(this, ChatActivity::class.java)
+            intent.putExtra(ChatActivity.EXTRA_REQUEST_ID, requestId)
+            startActivity(intent)
         }
 
         binding.buttonSave.setOnClickListener {

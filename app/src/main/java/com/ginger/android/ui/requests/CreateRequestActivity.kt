@@ -3,6 +3,8 @@ package com.ginger.android.ui.requests
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import android.net.Uri
+import androidx.activity.result.contract.ActivityResultContracts
 import com.ginger.android.ui.BaseActivity
 import com.ginger.android.ui.hideErrorBanner
 import com.ginger.android.ui.hideKeyboard
@@ -28,6 +30,17 @@ class CreateRequestActivity : BaseActivity() {
     private val viewModel: CreateRequestViewModel by viewModels()
     private lateinit var binding: ActivityCreateRequestBinding
 
+    private val pickImagesLauncher = registerForActivityResult(
+        ActivityResultContracts.GetMultipleContents()
+    ) { uris: List<Uri> ->
+        if (!uris.isNullOrEmpty()) {
+            val strings = uris.map { it.toString() }
+            viewModel.addAttachments(strings)
+        }
+    }
+
+    private lateinit var attachmentsAdapter: AttachmentsAdapter
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -42,11 +55,37 @@ class CreateRequestActivity : BaseActivity() {
 
         setupListeners()
 
+        // Attachments Recycler
+        attachmentsAdapter = AttachmentsAdapter(onRemove = { uri -> viewModel.removeAttachment(uri) }, onClick = { uriStr ->
+            try {
+                val intent = android.content.Intent(this, ImagePreviewActivity::class.java)
+                intent.putExtra(ImagePreviewActivity.EXTRA_IMAGE_URI, uriStr)
+                startActivity(intent)
+            } catch (_: Exception) {
+            }
+        })
+        binding.recyclerAttachments.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(this, androidx.recyclerview.widget.LinearLayoutManager.HORIZONTAL, false)
+        binding.recyclerAttachments.adapter = attachmentsAdapter
+
         // Collect from StateFlow (modern approach)
         lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.STARTED) {
-                viewModel.uiState.collect { state ->
-                    handleUiState(state)
+                launch {
+                    viewModel.uiState.collect { state ->
+                        handleUiState(state)
+                    }
+                }
+
+                launch {
+                    viewModel.attachments.collect { attachments ->
+                        if (attachments.isEmpty()) {
+                            binding.textAttachmentsCount.visibility = View.GONE
+                        } else {
+                            binding.textAttachmentsCount.visibility = View.VISIBLE
+                            binding.textAttachmentsCount.text = "${attachments.size} вложение(s)"
+                            attachmentsAdapter.setItems(attachments)
+                        }
+                    }
                 }
             }
         }
@@ -55,6 +94,10 @@ class CreateRequestActivity : BaseActivity() {
     private fun setupListeners() {
         binding.buttonCreateBack.setOnClickListener {
             finish()
+        }
+
+        binding.buttonAddAttachment.setOnClickListener {
+            pickImagesLauncher.launch("image/*")
         }
 
         binding.buttonCreateSubmit.setOnClickListener {
