@@ -1,0 +1,5 @@
+﻿chore: stabilize build, revert partial Hilt migration
+
+Reverted Hilt annotations in GingerApp/LoginActivity/LoginViewModel, removed Hilt plugin/deps and libs.versions entries; restored AppContainer and passed build/tests.
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>

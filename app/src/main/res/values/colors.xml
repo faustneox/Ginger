@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bg_start">#FF0A1018</color>
+    <color name="bg_end">#FF111B27</color>
+    <color name="surface_dark">#FF17222E</color>
+    <color name="surface_dark_alt">#FF1C2938</color>
+    <color name="stroke_dark">#FF2C3A4A</color>
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#FF9CA9B8</color>
+    <color name="accent_purple">#FF6B4BFF</color>
+    <color name="accent_purple_dark">#FF5738E5</color>
+    <color name="danger_red">#FFFF5C6C</color>
+
+    <!-- Ripple for dark surfaces -->
+    <color name="ripple_on_dark">#33FFFFFF</color>
+</resources>

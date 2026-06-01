@@ -1,0 +1,20 @@
+e: file:///C:/Users/AntonM/Desktop/Ginger/app/src/test/java/com/ginger/android/data/repository/RequestPagingUnitTest.kt:68:58 2 type arguments expected for data class Page<Key : Any, Value : Any> : PagingSource.LoadResult<Key, Value>, Iterable<Value>.
+e: file:///C:/Users/AntonM/Desktop/Ginger/app/src/test/java/com/ginger/android/data/repository/RequestPagingUnitTest.kt:69:30 Unresolved reference 'data'.
+e: file:///C:/Users/AntonM/Desktop/Ginger/app/src/test/java/com/ginger/android/data/repository/RequestPagingUnitTest.kt:70:30 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/AntonM/Desktop/Ginger/app/src/test/java/com/ginger/android/data/repository/RequestPagingUnitTest.kt:70:35 Unresolved reference 'data'.
+e: file:///C:/Users/AntonM/Desktop/Ginger/app/src/test/java/com/ginger/android/data/repository/RequestPagingUnitTest.kt:70:43 Unresolved reference 'ownerPhone'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugUnitTestKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 35s

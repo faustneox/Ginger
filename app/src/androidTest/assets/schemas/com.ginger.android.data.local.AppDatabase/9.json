@@ -1,0 +1,20 @@
+﻿{
+  "formatVersion": 1,
+  "database": { "version": 9, "identityHash": "placeholder-9" },
+  "entities": [
+    {
+      "tableName": "users",
+      "fields": [
+        {"fieldPath":"id","columnName":"id","affinity":"INTEGER","notNull":true,"primaryKeyPosition":1},
+        {"fieldPath":"fullName","columnName":"full_name","affinity":"TEXT","notNull":true,"primaryKeyPosition":0},
+        {"fieldPath":"phone","columnName":"phone","affinity":"TEXT","notNull":false,"primaryKeyPosition":0},
+        {"fieldPath":"password","columnName":"password","affinity":"TEXT","notNull":false,"primaryKeyPosition":0},
+        {"fieldPath":"isAdmin","columnName":"is_admin","affinity":"INTEGER","notNull":true,"primaryKeyPosition":0},
+        {"fieldPath":"googleId","columnName":"google_id","affinity":"TEXT","notNull":false,"primaryKeyPosition":0},
+        {"fieldPath":"googleEmail","columnName":"google_email","affinity":"TEXT","notNull":false,"primaryKeyPosition":0}
+      ],
+      "primaryKey": { "columnNames": ["id"], "autoGenerate": true }
+    }
+  ],
+  "views": []
+}
