@@ -32,7 +32,7 @@ configurations.all {
     }
 }
 
-android {
+extensions.getByType(com.android.build.api.dsl.ApplicationExtension::class.java).apply {
     namespace = "com.ginger.android"
     compileSdk = 35
 
