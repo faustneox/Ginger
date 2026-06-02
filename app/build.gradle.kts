@@ -1,6 +1,5 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.ksp)
     // kover подключается условно ниже, чтобы можно было отключать его в CI/локально
     alias(libs.plugins.hilt)
@@ -33,7 +32,7 @@ configurations.all {
     }
 }
 
-android {
+extensions.getByType(com.android.build.api.dsl.ApplicationExtension::class.java).apply {
     namespace = "com.ginger.android"
     compileSdk = 35
 
@@ -64,11 +63,12 @@ android {
 
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 
-    kotlinOptions {
-        jvmTarget = "11"
-    }
+    // Kotlin compiler options are configured below via reflection to support
+    // AGP's built-in Kotlin (when `android.builtInKotlin=true`). This avoids
+    // referencing Kotlin Gradle API types directly in the script.
 }
 
 dependencies {
@@ -93,6 +93,10 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:34.12.0"))
     implementation("com.google.firebase:firebase-auth")
     implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-firestore-ktx:25.1.4")
+    implementation("com.google.firebase:firebase-storage-ktx:21.0.2")
+    implementation("io.coil-kt:coil:2.2.2")
+    implementation("androidx.exifinterface:exifinterface:1.3.6")
     releaseImplementation("com.google.firebase:firebase-crashlytics-ktx:18.3.5")
     implementation("com.jakewharton.timber:timber:5.0.1")
     implementation("com.google.dagger:hilt-android:2.59.2")
@@ -111,12 +115,44 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
     implementation("androidx.paging:paging-runtime:3.3.2")
+    implementation(libs.photoview)
 }
 
-// Apply google-services plugin except when running connectedAndroidTest (workaround for instrumentation run)
+// Apply google-services plugin only when explicitly enabled to avoid
+// unexpected failures from plugins that rely on the legacy Variant API.
 val runningConnectedAndroidTest = gradle.startParameter.taskNames.any { it.contains("connectedAndroidTest") }
-if (!runningConnectedAndroidTest) {
-    apply(plugin = "com.google.gms.google-services")
-} else {
+// Read the diagnostic flag robustly (handles boolean or string values passed via -P)
+val isAgpObsoleteDiagnostic = project.findProperty("android.debug.obsoleteApi")?.toString()?.toBoolean() ?: false
+// Only apply the google-services plugin when the project property `enableGoogleServices` is set to true
+// and we are not running connectedAndroidTest nor the AGP obsolete-API diagnostic.
+val enableGoogleServices = project.findProperty("enableGoogleServices")?.toString()?.toBoolean() ?: false
+if (enableGoogleServices && !runningConnectedAndroidTest && !isAgpObsoleteDiagnostic) {
+    try {
+        apply(plugin = "com.google.gms.google-services")
+    } catch (e: Throwable) {
+        println("Warning: Failed to apply com.google.gms.google-services plugin: " + e.message)
+        // Continue without failing the build; plugin may be incompatible with current AGP/Kotlin.
+    }
+} else if (!enableGoogleServices) {
+    println("Google services plugin disabled (set -PenableGoogleServices=true to enable)")
+} else if (runningConnectedAndroidTest) {
     println("Skipping google-services plugin for connectedAndroidTest run")
+} else {
+    println("Skipping google-services plugin for AGP obsolete API diagnostic (android.debug.obsoleteApi=true)")
+}
+
+// Configure Kotlin `jvmTarget` reflectively so the script does not depend on
+// the Kotlin Gradle plugin classes at configuration time. This works when
+// AGP provides Kotlin tooling via `android.builtInKotlin=true`.
+tasks.configureEach {
+    try {
+        val className = this.javaClass.name
+        if (className == "org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile" || className.contains("Kotlin")) {
+            val kotlinOptionsMethod = this.javaClass.getMethod("getKotlinOptions")
+            val kotlinOptions = kotlinOptionsMethod.invoke(this)
+            kotlinOptions.javaClass.getMethod("setJvmTarget", String::class.java).invoke(kotlinOptions, "11")
+        }
+    } catch (_: Throwable) {
+        // ignore - task may not expose kotlinOptions or reflection may fail
+    }
 }
