@@ -12,12 +12,15 @@ import com.ginger.android.data.session.SessionManager
 import com.ginger.android.util.ActionGuard
 import com.ginger.android.util.AppCoroutines
 import com.ginger.android.util.launchSafe
+import android.net.Uri
+import timber.log.Timber
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.flow.update
 
 /**
  * ViewModel для создания новой заявки (доступно только администраторам).
@@ -35,6 +38,9 @@ class CreateRequestViewModel @Inject constructor(
     private val _uiState = MutableStateFlow<CreateRequestUiState>(CreateRequestUiState.Idle)
     val uiState: StateFlow<CreateRequestUiState> = _uiState.asStateFlow()
 
+    private val _attachments = MutableStateFlow<List<String>>(emptyList())
+    val attachments: StateFlow<List<String>> = _attachments.asStateFlow()
+
     private val actionGuard = ActionGuard()
 
     fun validateFields(title: String, description: String, ownerPhoneRaw: String): ValidationError? {
@@ -50,7 +56,8 @@ class CreateRequestViewModel @Inject constructor(
         title: String,
         description: String,
         category: String,
-        ownerPhoneRaw: String
+        ownerPhoneRaw: String,
+        attachmentUris: List<String>? = null
     ) {
         val validation = validateFields(title, description, ownerPhoneRaw)
         if (validation != null) {
@@ -104,10 +111,27 @@ class CreateRequestViewModel @Inject constructor(
                         createdAt = System.currentTimeMillis()
                     )
 
-                    val insertResult = requestRepository.insert(request)
+                    val attachmentsToSend = attachmentUris ?: _attachments.value
 
-                    insertResult.onSuccess {
+                    val insertResult = requestRepository.insert(request, if (attachmentsToSend.isEmpty()) null else attachmentsToSend)
+
+                    insertResult.onSuccess { newId ->
+                        if (!attachmentsToSend.isNullOrEmpty()) {
+                            for (uriStr in attachmentsToSend) {
+                                try {
+                                    val uploadResult = requestRepository.uploadAttachmentToServer(appContext, newId, Uri.parse(uriStr))
+                                    uploadResult.onFailure { ex ->
+                                        Timber.w(ex, "Upload failed for attachment: %s", uriStr)
+                                    }
+                                } catch (e: Exception) {
+                                    Timber.w(e, "Exception while uploading attachment: %s", uriStr)
+                                }
+                            }
+                        }
+
                         _uiState.value = CreateRequestUiState.Success
+                        // clear attachments after successful submit
+                        _attachments.value = emptyList()
                     }.onFailure {
                         _uiState.value = CreateRequestUiState.Error(appContext.getString(R.string.error_create_request_failed))
                     }
@@ -118,6 +142,18 @@ class CreateRequestViewModel @Inject constructor(
                 actionGuard.finishGlobal()
             }
         }
+    }
+
+    fun addAttachments(uris: List<String>) {
+        _attachments.update { old -> old + uris }
+    }
+
+    fun removeAttachment(uri: String) {
+        _attachments.update { old -> old.filter { it != uri } }
+    }
+
+    fun clearAttachments() {
+        _attachments.value = emptyList()
     }
 
     fun resetState() {

@@ -56,7 +56,7 @@ class RequestPagingUnitTest {
             override fun getAllPaging(): PagingSource<Int, RequestEntity> = throw NotImplementedError()
             override fun getByStatusPaging(status: String): PagingSource<Int, RequestEntity> = throw NotImplementedError()
             override fun getById(id: Long): RequestEntity? = throw NotImplementedError()
-            override fun insert(request: RequestEntity) { /* no-op */ }
+            override fun insert(request: RequestEntity): Long { /* no-op */ return request.id }
             override fun update(request: RequestEntity) { /* no-op */ }
             override fun updateFields(id: Long, title: String, description: String, category: String, contact: String, status: String): Int = throw NotImplementedError()
             override fun deleteById(id: Long) { /* no-op */ }
