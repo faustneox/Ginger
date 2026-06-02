@@ -6,51 +6,124 @@ on:
       - 'chore/agp-upgrade/**'
   push:
     branches:
-      - 'chore/agp-upgrade/**'
+      name: AGP Upgrade CI
 
-jobs:
-  build:
-    name: Build & Unit Tests
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      on:
+        pull_request:
+          branches:
+            - 'chore/agp-upgrade/**'
+        push:
+          branches:
+            - 'chore/agp-upgrade/**'
 
+      jobs:
+        build:
+          name: Build & Unit Tests (AGP: ${{ matrix.agp }}, Kotlin: ${{ matrix.kotlin }})
+          runs-on: ubuntu-latest
+          strategy:
+            fail-fast: false
+            matrix:
+              agp: ["9.2.1", "9.3.0-alpha09"]
+              kotlin: ["2.2.20", "2.3.0"]
+          steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Set up JDK 11
+              uses: actions/setup-java@v4
+              with:
+                distribution: 'temurin'
+                java-version: '11'
+
+            - name: Cache Gradle
+              uses: actions/cache@v4
+              with:
+                path: |
+                  ~/.gradle/caches
+                  ~/.gradle/wrapper
+                key: ${{ runner.os }}-gradle-${{ matrix.agp }}-${{ matrix.kotlin }}-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties', 'gradle/libs.versions.toml') }}
+                restore-keys: |
+                  ${{ runner.os }}-gradle-
+
+            - name: Grant execute permission for gradlew
+              run: chmod +x ./gradlew
+
+            - name: Set matrix vars
+              run: |
+                echo "AGP=${{ matrix.agp }}" >> $GITHUB_ENV
+                echo "KOTLIN=${{ matrix.kotlin }}" >> $GITHUB_ENV
+
+            - name: Update version catalog for this matrix combo
+              run: |
+                python - <<'PY'
+                import re, os
+                fn='gradle/libs.versions.toml'
+                agp=os.environ.get('AGP')
+                kotlin=os.environ.get('KOTLIN')
+                s=open(fn).read()
+                s=re.sub(r'(?m)^(agp\s*=\s*)"[^"]*"', r'\1"'+agp+'"', s)
+                s=re.sub(r'(?m)^(kotlin\s*=\s*)"[^"]*"', r'\1"'+kotlin+'"', s)
+                open(fn,'w').write(s)
+                print('Updated',fn)
+                PY
+
+            - name: Show version catalog
+              run: sed -n '1,40p' gradle/libs.versions.toml || true
+
+            - name: Build and unit tests
+              run: ./gradlew --no-daemon clean assembleDebug test --stacktrace
+
+        emulator-tests:
+          name: Migration Instrumentation Tests (baseline)
+          runs-on: ubuntu-latest
+          needs: build
+          steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Set up JDK 11
+              uses: actions/setup-java@v4
+              with:
+                distribution: 'temurin'
+                java-version: '11'
+
+            - name: Set baseline versions
+              run: |
+                echo "AGP=9.2.1" >> $GITHUB_ENV
+                echo "KOTLIN=2.2.20" >> $GITHUB_ENV
+
+            - name: Update version catalog to baseline
+              run: |
+                python - <<'PY'
+                import re, os
+                fn='gradle/libs.versions.toml'
+                agp=os.environ.get('AGP')
+                kotlin=os.environ.get('KOTLIN')
+                s=open(fn).read()
+                s=re.sub(r'(?m)^(agp\s*=\s*)"[^"]*"', r'\1"'+agp+'"', s)
+                s=re.sub(r'(?m)^(kotlin\s*=\s*)"[^"]*"', r'\1"'+kotlin+'"', s)
+                open(fn,'w').write(s)
+                print('Updated',fn)
+                PY
+
+            - name: Run instrumentation test on emulator
+              uses: reactivecircus/android-emulator-runner@v2
+              with:
+                api-level: 31
+                target: google_apis
+                arch: x86_64
+                emulator-options: -no-window -gpu swiftshader_indirect
+                script: ./gradlew connectedAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.ginger.android.migration.Migration16To17Test
       - name: Set up JDK 11
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '11'
 
-      - name: Cache Gradle
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.gradle/caches
-            ~/.gradle/wrapper
-          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties', 'gradle/libs.versions.toml') }}
-          restore-keys: |
-            ${{ runner.os }}-gradle-
-
-      - name: Grant execute permission for gradlew
-        run: chmod +x ./gradlew
-
-      - name: Build and unit tests
-        run: ./gradlew --no-daemon clean assembleDebug test --stacktrace
-
-  emulator-tests:
-    name: Migration Instrumentation Tests
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up JDK 11
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: '11'
+      - name: Update version catalog for matrix run
+        run: |
+          sed -i "s/agp = \".*\"/agp = \"${{ matrix.agp }}\"/" gradle/libs.versions.toml
+          sed -i "s/kotlin = \".*\"/kotlin = \"${{ matrix.kotlin }}\"/" gradle/libs.versions.toml
 
       - name: Run instrumentation test on emulator
         uses: reactivecircus/android-emulator-runner@v2
