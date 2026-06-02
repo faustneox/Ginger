@@ -71,7 +71,16 @@ on:
               run: sed -n '1,40p' gradle/libs.versions.toml || true
 
             - name: Build and unit tests
-              run: ./gradlew --no-daemon clean assembleDebug test --stacktrace
+              run: |
+                set -o pipefail
+                ./gradlew --no-daemon clean assembleDebug test --stacktrace 2>&1 | tee build.log
+
+            - name: Upload build log
+              if: always()
+              uses: actions/upload-artifact@v4
+              with:
+                name: build-log-${{ matrix.agp }}-${{ matrix.kotlin }}
+                path: build.log
 
         emulator-tests:
           name: Migration Instrumentation Tests (baseline)
