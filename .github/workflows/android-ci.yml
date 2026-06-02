@@ -55,19 +55,17 @@ jobs:
           distribution: temurin
           java-version: '11'
 
-      - name: Start emulator
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Start emulator and run connected tests
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 30
           target: google_apis
           arch: x86_64
           emulator-options: '-no-window -gpu swiftshader_indirect'
-
-      - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
-
-      - name: Run connected tests
-        run: ./gradlew :app:connectedDebugAndroidTest --no-daemon
+          script: ./gradlew :app:connectedDebugAndroidTest --no-daemon
 
       - name: Upload instrumentation test reports
         uses: actions/upload-artifact@v4
