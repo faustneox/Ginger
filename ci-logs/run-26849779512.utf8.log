@@ -1,0 +1,520 @@
+﻿Run unit tests	Set up job	я╗┐2026-06-02T21:42:39.1605440Z Current runner version: '2.334.0'
+Run unit tests	Set up job	2026-06-02T21:42:39.1631865Z ##[group]Runner Image Provisioner
+Run unit tests	Set up job	2026-06-02T21:42:39.1633627Z Hosted Compute Agent
+Run unit tests	Set up job	2026-06-02T21:42:39.1634405Z Version: 20260520.533
+Run unit tests	Set up job	2026-06-02T21:42:39.1635060Z Commit: 189110e25284a9812c124fd27b339e2fb4f2f9db
+Run unit tests	Set up job	2026-06-02T21:42:39.1635923Z Build Date: 2026-05-20T17:44:04Z
+Run unit tests	Set up job	2026-06-02T21:42:39.1636636Z Worker ID: {5ab9fee4-eb44-4d2b-aecf-d54e308da74e}
+Run unit tests	Set up job	2026-06-02T21:42:39.1637413Z Azure Region: northcentralus
+Run unit tests	Set up job	2026-06-02T21:42:39.1638093Z ##[endgroup]
+Run unit tests	Set up job	2026-06-02T21:42:39.1639652Z ##[group]Operating System
+Run unit tests	Set up job	2026-06-02T21:42:39.1640395Z Ubuntu
+Run unit tests	Set up job	2026-06-02T21:42:39.1640939Z 24.04.4
+Run unit tests	Set up job	2026-06-02T21:42:39.1641449Z LTS
+Run unit tests	Set up job	2026-06-02T21:42:39.1642078Z ##[endgroup]
+Run unit tests	Set up job	2026-06-02T21:42:39.1642645Z ##[group]Runner Image
+Run unit tests	Set up job	2026-06-02T21:42:39.1643610Z Image: ubuntu-24.04
+Run unit tests	Set up job	2026-06-02T21:42:39.1644257Z Version: 20260525.161.1
+Run unit tests	Set up job	2026-06-02T21:42:39.1645351Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260525.161/images/ubuntu/Ubuntu2404-Readme.md
+Run unit tests	Set up job	2026-06-02T21:42:39.1647186Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260525.161
+Run unit tests	Set up job	2026-06-02T21:42:39.1648207Z ##[endgroup]
+Run unit tests	Set up job	2026-06-02T21:42:39.1649440Z ##[group]GITHUB_TOKEN Permissions
+Run unit tests	Set up job	2026-06-02T21:42:39.1651563Z Contents: read
+Run unit tests	Set up job	2026-06-02T21:42:39.1652236Z Metadata: read
+Run unit tests	Set up job	2026-06-02T21:42:39.1652829Z Packages: read
+Run unit tests	Set up job	2026-06-02T21:42:39.1653781Z ##[endgroup]
+Run unit tests	Set up job	2026-06-02T21:42:39.1656142Z Secret source: Actions
+Run unit tests	Set up job	2026-06-02T21:42:39.1657065Z Prepare workflow directory
+Run unit tests	Set up job	2026-06-02T21:42:39.2142871Z Prepare all required actions
+Run unit tests	Set up job	2026-06-02T21:42:39.2199640Z Getting action download info
+Run unit tests	Set up job	2026-06-02T21:42:39.6153848Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+Run unit tests	Set up job	2026-06-02T21:42:39.7398773Z Download action repository 'actions/setup-java@v4' (SHA:c1e323688fd81a25caa38c78aa6df2d33d3e20d9)
+Run unit tests	Set up job	2026-06-02T21:42:40.2042291Z Download action repository 'actions/cache@v4' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+Run unit tests	Set up job	2026-06-02T21:42:40.3115473Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+Run unit tests	Set up job	2026-06-02T21:42:40.5564027Z Complete job name: Run unit tests
+Run unit tests	Run actions/checkout@v4	я╗┐2026-06-02T21:42:40.6521597Z ##[group]Run actions/checkout@v4
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6523135Z with:
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6524289Z   repository: faustneox/Ginger
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6536222Z   token: ***
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6537127Z   ssh-strict: true
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6538034Z   ssh-user: git
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6538959Z   persist-credentials: true
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6539995Z   clean: true
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6540931Z   sparse-checkout-cone-mode: true
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6542034Z   fetch-depth: 1
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6542955Z   fetch-tags: false
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6544314Z   show-progress: true
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6545298Z   lfs: false
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6546170Z   submodules: false
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6547128Z   set-safe-directory: true
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.6548576Z ##[endgroup]
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.7737964Z Syncing repository: faustneox/Ginger
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.7741078Z ##[group]Getting Git version info
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.7742498Z Working directory is '/home/runner/work/Ginger/Ginger'
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.7745149Z [command]/usr/bin/git version
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.7794968Z git version 2.54.0
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.7824153Z ##[endgroup]
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.7848224Z Temporarily overriding HOME='/home/runner/work/_temp/60b00c9e-aec5-4040-98b9-696a350daede' before making global git config changes
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.7851246Z Adding repository directory to the temporary git global config as a safe directory
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.7854404Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Ginger/Ginger
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.7900234Z Deleting the contents of '/home/runner/work/Ginger/Ginger'
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.7905040Z ##[group]Initializing the repository
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.7909607Z [command]/usr/bin/git init /home/runner/work/Ginger/Ginger
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8008876Z hint: Using 'master' as the name for the initial branch. This default branch name
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8012801Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8015342Z hint: to use in all of your new repositories, which will suppress this warning,
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8016997Z hint: call:
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8017852Z hint:
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8019652Z hint: 	git config --global init.defaultBranch <name>
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8020973Z hint:
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8022163Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8024446Z hint: 'development'. The just-created branch can be renamed via this command:
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8026520Z hint:
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8027409Z hint: 	git branch -m <name>
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8028401Z hint:
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8029820Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8032123Z Initialized empty Git repository in /home/runner/work/Ginger/Ginger/.git/
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8035814Z [command]/usr/bin/git remote add origin https://github.com/faustneox/Ginger
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8074012Z ##[endgroup]
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8075648Z ##[group]Disabling automatic garbage collection
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8077978Z [command]/usr/bin/git config --local gc.auto 0
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8111786Z ##[endgroup]
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8113531Z ##[group]Setting up auth
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8119702Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8157460Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8486410Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8519950Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8750719Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.8786309Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.9023115Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.9061774Z ##[endgroup]
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.9063761Z ##[group]Fetching the repository
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:40.9071619Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +c9a0960dc92d43854f44aaa6aa30d840f5bda3a6:refs/remotes/origin/main
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:41.5204567Z From https://github.com/faustneox/Ginger
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:41.5208350Z  * [new ref]         c9a0960dc92d43854f44aaa6aa30d840f5bda3a6 -> origin/main
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:41.5252210Z ##[endgroup]
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:41.5254825Z ##[group]Determining the checkout info
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:41.5257579Z ##[endgroup]
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:41.5262123Z [command]/usr/bin/git sparse-checkout disable
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:41.5316928Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:41.5352399Z ##[group]Checking out the ref
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:41.5356222Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:41.6360682Z Switched to a new branch 'main'
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:41.6362449Z branch 'main' set up to track 'origin/main'.
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:41.6376150Z ##[endgroup]
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:41.6426003Z [command]/usr/bin/git log -1 --format=%H
+Run unit tests	Run actions/checkout@v4	2026-06-02T21:42:41.6453425Z c9a0960dc92d43854f44aaa6aa30d840f5bda3a6
+Run unit tests	Set up JDK 11	я╗┐2026-06-02T21:42:41.6853474Z ##[group]Run actions/setup-java@v4
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.6854670Z with:
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.6855506Z   distribution: temurin
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.6856441Z   java-version: 11
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.6857333Z   java-package: jdk
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.6858236Z   check-latest: false
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.6859402Z   server-id: github
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.6860324Z   server-username: GITHUB_ACTOR
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.6861388Z   server-password: GITHUB_TOKEN
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.6862438Z   overwrite-settings: true
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.6863571Z   job-status: success
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.6875184Z   token: ***
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.6876053Z ##[endgroup]
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.9025727Z ##[group]Installed distributions
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.9190940Z Resolved Java 11.0.31+11 from tool-cache
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.9193532Z Setting Java 11.0.31+11 as the default
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.9208156Z Creating toolchains.xml for JDK version 11 from temurin
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.9288140Z Writing to /home/runner/.m2/toolchains.xml
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.9289736Z 
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.9290560Z Java configuration:
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.9292127Z   Distribution: temurin
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.9294232Z   Version: 11.0.31+11
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.9296421Z   Path: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.31-11/x64
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.9298243Z 
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.9300108Z ##[endgroup]
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.9323709Z Creating settings.xml with server-id: github
+Run unit tests	Set up JDK 11	2026-06-02T21:42:41.9325287Z Writing to /home/runner/.m2/settings.xml
+Run unit tests	Cache Gradle	я╗┐2026-06-02T21:42:42.0594952Z ##[group]Run actions/cache@v4
+Run unit tests	Cache Gradle	2026-06-02T21:42:42.0596252Z with:
+Run unit tests	Cache Gradle	2026-06-02T21:42:42.0597192Z   path: ~/.gradle/caches
+Run unit tests	Cache Gradle	~/.gradle/wrapper
+Run unit tests	Cache Gradle	
+Run unit tests	Cache Gradle	2026-06-02T21:42:42.0599001Z   key: Linux-gradle-85e4451fef55cfaa72da5bea4dbbab45f57624116c2fd7735b781f1d134a4661
+Run unit tests	Cache Gradle	2026-06-02T21:42:42.0600955Z   restore-keys: Linux-gradle-
+Run unit tests	Cache Gradle	
+Run unit tests	Cache Gradle	2026-06-02T21:42:42.0602068Z   enableCrossOsArchive: false
+Run unit tests	Cache Gradle	2026-06-02T21:42:42.0603516Z   fail-on-cache-miss: false
+Run unit tests	Cache Gradle	2026-06-02T21:42:42.0604603Z   lookup-only: false
+Run unit tests	Cache Gradle	2026-06-02T21:42:42.0605544Z   save-always: false
+Run unit tests	Cache Gradle	2026-06-02T21:42:42.0606491Z env:
+Run unit tests	Cache Gradle	2026-06-02T21:42:42.0607825Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.31-11/x64
+Run unit tests	Cache Gradle	2026-06-02T21:42:42.0609790Z   JAVA_HOME_11_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.31-11/x64
+Run unit tests	Cache Gradle	2026-06-02T21:42:42.0611472Z ##[endgroup]
+Run unit tests	Cache Gradle	2026-06-02T21:42:42.3455899Z Cache hit for restore-key: Linux-gradle-f0d691b090434e05a972ef9c34f1320c020e5dd62a46201db412920cf044f99a
+Run unit tests	Cache Gradle	2026-06-02T21:42:43.4536208Z Received 117440512 of 657113699 (17.9%), 111.9 MBs/sec
+Run unit tests	Cache Gradle	2026-06-02T21:42:44.4544204Z Received 293601280 of 657113699 (44.7%), 139.9 MBs/sec
+Run unit tests	Cache Gradle	2026-06-02T21:42:45.4557000Z Received 482344960 of 657113699 (73.4%), 153.2 MBs/sec
+Run unit tests	Cache Gradle	2026-06-02T21:42:46.3590188Z Received 657113699 of 657113699 (100.0%), 160.4 MBs/sec
+Run unit tests	Cache Gradle	2026-06-02T21:42:46.3594115Z Cache Size: ~627 MB (657113699 B)
+Run unit tests	Cache Gradle	2026-06-02T21:42:46.3659016Z [command]/usr/bin/tar -xf /home/runner/work/_temp/e080a0ea-35f1-49ef-8204-bddbe975ff18/cache.tzst -P -C /home/runner/work/Ginger/Ginger --use-compress-program unzstd
+Run unit tests	Cache Gradle	2026-06-02T21:42:49.0361293Z Cache restored successfully
+Run unit tests	Cache Gradle	2026-06-02T21:42:49.0735120Z Cache restored from key: Linux-gradle-f0d691b090434e05a972ef9c34f1320c020e5dd62a46201db412920cf044f99a
+Run unit tests	Grant execute permission for gradlew	я╗┐2026-06-02T21:42:49.0880999Z ##[group]Run chmod +x gradlew
+Run unit tests	Grant execute permission for gradlew	2026-06-02T21:42:49.0881408Z ^[[36;1mchmod +x gradlew^[[0m
+Run unit tests	Grant execute permission for gradlew	2026-06-02T21:42:49.0912150Z shell: /usr/bin/bash -e {0}
+Run unit tests	Grant execute permission for gradlew	2026-06-02T21:42:49.0912497Z env:
+Run unit tests	Grant execute permission for gradlew	2026-06-02T21:42:49.0912864Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.31-11/x64
+Run unit tests	Grant execute permission for gradlew	2026-06-02T21:42:49.0913757Z   JAVA_HOME_11_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.31-11/x64
+Run unit tests	Grant execute permission for gradlew	2026-06-02T21:42:49.0914350Z ##[endgroup]
+Run unit tests	Run unit tests	я╗┐2026-06-02T21:42:49.1473981Z ##[group]Run ./gradlew :app:testDebugUnitTest --no-daemon
+Run unit tests	Run unit tests	2026-06-02T21:42:49.1474555Z ^[[36;1m./gradlew :app:testDebugUnitTest --no-daemon^[[0m
+Run unit tests	Run unit tests	2026-06-02T21:42:49.1501836Z shell: /usr/bin/bash -e {0}
+Run unit tests	Run unit tests	2026-06-02T21:42:49.1502150Z env:
+Run unit tests	Run unit tests	2026-06-02T21:42:49.1502502Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.31-11/x64
+Run unit tests	Run unit tests	2026-06-02T21:42:49.1503062Z   JAVA_HOME_11_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.31-11/x64
+Run unit tests	Run unit tests	2026-06-02T21:42:49.1503893Z ##[endgroup]
+Run unit tests	Run unit tests	2026-06-02T21:42:51.9387861Z 
+Run unit tests	Run unit tests	2026-06-02T21:42:51.9389306Z Welcome to Gradle 9.4.1!
+Run unit tests	Run unit tests	2026-06-02T21:42:51.9390717Z 
+Run unit tests	Run unit tests	2026-06-02T21:42:51.9404554Z Here are the highlights of this release:
+Run unit tests	Run unit tests	2026-06-02T21:42:51.9405857Z  - Java 26 support
+Run unit tests	Run unit tests	2026-06-02T21:42:51.9406341Z  - Non-class-based JVM tests
+Run unit tests	Run unit tests	2026-06-02T21:42:51.9406885Z  - Enhanced console progress bar
+Run unit tests	Run unit tests	2026-06-02T21:42:51.9407285Z 
+Run unit tests	Run unit tests	2026-06-02T21:42:51.9407683Z For more details see https://docs.gradle.org/9.4.1/release-notes.html
+Run unit tests	Run unit tests	2026-06-02T21:42:51.9408316Z 
+Run unit tests	Run unit tests	2026-06-02T21:42:52.1225002Z To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Run unit tests	Run unit tests	2026-06-02T21:42:58.4220012Z Daemon will be stopped at the end of the build 
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1220977Z 
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1252503Z > Configure project :app
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1263614Z WARNING: The option setting 'android.usesSdkInManifest.disallowed=false' is deprecated.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1271955Z The current default is 'true'.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1272744Z It will be removed in version 10.0 of the Android Gradle plugin.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1274189Z WARNING: The option setting 'android.sdk.defaultTargetSdkToCompileSdkIfUnset=false' is deprecated.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1275146Z The current default is 'true'.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1275764Z It will be removed in version 10.0 of the Android Gradle plugin.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1276656Z WARNING: The option setting 'android.enableAppCompileTimeRClass=false' is deprecated.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1277514Z The current default is 'true'.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1278166Z It will be removed in version 10.0 of the Android Gradle plugin.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1279095Z WARNING: The option setting 'android.r8.optimizedResourceShrinking=false' is deprecated.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1279946Z The current default is 'true'.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1280525Z It will be removed in version 10.0 of the Android Gradle plugin.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1281453Z WARNING: The option setting 'android.defaults.buildfeatures.resvalues=true' is deprecated.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1282284Z The current default is 'false'.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1282877Z It will be removed in version 10.0 of the Android Gradle plugin.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1284242Z WARNING: The option setting 'android.dependency.excludeLibraryComponentsFromConstraints=true' is deprecated.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1285233Z The current default is 'false'.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1285827Z It will be removed in version 10.0 of the Android Gradle plugin.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1286455Z Following can be set instead to achieve a similar behaviour.
+Run unit tests	Run unit tests	2026-06-02T21:43:20.1286883Z     android.dependency.useConstraints=false
+Run unit tests	Run unit tests	2026-06-02T21:43:26.3222303Z Google services plugin disabled (set -PenableGoogleServices=true to enable)
+Run unit tests	Run unit tests	2026-06-02T21:43:28.8218908Z 
+Run unit tests	Run unit tests	2026-06-02T21:43:28.8244325Z > Task :app:preBuild UP-TO-DATE
+Run unit tests	Run unit tests	2026-06-02T21:43:28.8245000Z > Task :app:preDebugBuild UP-TO-DATE
+Run unit tests	Run unit tests	2026-06-02T21:43:32.8226303Z > Task :app:dataBindingMergeDependencyArtifactsDebug
+Run unit tests	Run unit tests	2026-06-02T21:43:32.8227665Z > Task :app:generateDebugResValues
+Run unit tests	Run unit tests	2026-06-02T21:43:32.9219073Z > Task :app:generateDebugResources
+Run unit tests	Run unit tests	2026-06-02T21:43:35.8244278Z > Task :app:packageDebugResources
+Run unit tests	Run unit tests	2026-06-02T21:43:35.9219351Z > Task :app:processDebugNavigationResources
+Run unit tests	Run unit tests	2026-06-02T21:43:36.1219528Z > Task :app:mergeDebugResources
+Run unit tests	Run unit tests	2026-06-02T21:43:37.1266046Z > Task :app:generateDebugBuildConfig
+Run unit tests	Run unit tests	2026-06-02T21:43:37.4220211Z > Task :app:parseDebugLocalResources
+Run unit tests	Run unit tests	2026-06-02T21:43:37.4243898Z > Task :app:checkDebugAarMetadata
+Run unit tests	Run unit tests	2026-06-02T21:43:38.0219454Z > Task :app:dataBindingGenBaseClassesDebug
+Run unit tests	Run unit tests	2026-06-02T21:43:43.3234267Z > Task :app:mapDebugSourceSetPaths
+Run unit tests	Run unit tests	2026-06-02T21:43:43.4224517Z > Task :app:compileDebugNavigationResources
+Run unit tests	Run unit tests	2026-06-02T21:43:43.4244086Z > Task :app:createDebugCompatibleScreenManifests
+Run unit tests	Run unit tests	2026-06-02T21:43:43.4274030Z > Task :app:extractDeepLinksDebug
+Run unit tests	Run unit tests	2026-06-02T21:43:44.0219284Z > Task :app:processDebugMainManifest
+Run unit tests	Run unit tests	2026-06-02T21:43:44.2222918Z > Task :app:processDebugManifest
+Run unit tests	Run unit tests	2026-06-02T21:43:44.2248611Z > Task :app:preDebugUnitTestBuild UP-TO-DATE
+Run unit tests	Run unit tests	2026-06-02T21:43:44.2278396Z > Task :app:processDebugManifestForPackage
+Run unit tests	Run unit tests	2026-06-02T21:43:44.3226648Z > Task :app:javaPreCompileDebugUnitTest
+Run unit tests	Run unit tests	2026-06-02T21:43:44.3254383Z > Task :app:javaPreCompileDebug
+Run unit tests	Run unit tests	2026-06-02T21:43:46.0219235Z > Task :app:processDebugResources
+Run unit tests	Run unit tests	2026-06-02T21:43:57.0252207Z > Task :app:kspDebugKotlin
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1218773Z 
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1241901Z > Task :app:compileDebugKotlin
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1275219Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/data/local/AppDatabase.kt:27:34 The corresponding parameter in the supertype 'Migration' is named 'db'. This may cause problems when calling this function with named arguments.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1315112Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/data/local/AppDatabase.kt:31:34 The corresponding parameter in the supertype 'Migration' is named 'db'. This may cause problems when calling this function with named arguments.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1361885Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/data/local/AppDatabase.kt:38:34 The corresponding parameter in the supertype 'Migration' is named 'db'. This may cause problems when calling this function with named arguments.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1404603Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/ui/auth/LoginActivity.kt:33:8 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1425051Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/ui/auth/LoginActivity.kt:34:8 'class GoogleSignInAccount : AbstractSafeParcelable, ReflectedParcelable' is deprecated. Deprecated in Java.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1454910Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/ui/auth/LoginActivity.kt:35:8 'class GoogleSignInClient : GoogleApi<GoogleSignInOptions!>' is deprecated. Deprecated in Java.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1465055Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/ui/auth/LoginActivity.kt:36:8 'class GoogleSignInOptions : AbstractSafeParcelable, Api.ApiOptions.Optional, ReflectedParcelable' is deprecated. Deprecated in Java.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1494734Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/ui/auth/LoginActivity.kt:48:46 'class GoogleSignInClient : GoogleApi<GoogleSignInOptions!>' is deprecated. Deprecated in Java.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1511143Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/ui/auth/LoginActivity.kt:155:19 'class GoogleSignInOptions : AbstractSafeParcelable, Api.ApiOptions.Optional, ReflectedParcelable' is deprecated. Deprecated in Java.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1514580Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/ui/auth/LoginActivity.kt:155:39 'constructor(p0: GoogleSignInOptions): GoogleSignInOptions.Builder' is deprecated. Deprecated in Java.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1517504Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/ui/auth/LoginActivity.kt:155:47 'class GoogleSignInOptions : AbstractSafeParcelable, Api.ApiOptions.Optional, ReflectedParcelable' is deprecated. Deprecated in Java.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1520141Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/ui/auth/LoginActivity.kt:160:30 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1522674Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/ui/auth/LoginActivity.kt:197:28 'class GoogleSignInAccount : AbstractSafeParcelable, ReflectedParcelable' is deprecated. Deprecated in Java.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1525920Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/ui/auth/LoginActivity.kt:197:51 'class GoogleSignIn : Any' is deprecated. Deprecated in Java.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1528602Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/ui/auth/LoginActivity.kt:198:26 'class GoogleSignInAccount : AbstractSafeParcelable, ReflectedParcelable' is deprecated. Deprecated in Java.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1531694Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/ui/auth/LoginActivity.kt:257:46 'class GoogleSignInAccount : AbstractSafeParcelable, ReflectedParcelable' is deprecated. Deprecated in Java.
+Run unit tests	Run unit tests	2026-06-02T21:44:20.1535011Z w: file:///home/runner/work/Ginger/Ginger/app/src/main/java/com/ginger/android/ui/auth/LoginViewModel.kt:135:76 'class GoogleSignInAccount : AbstractSafeParcelable, ReflectedParcelable' is deprecated. Deprecated in Java.
+Run unit tests	Run unit tests	2026-06-02T21:44:26.6222755Z 
+Run unit tests	Run unit tests	2026-06-02T21:44:26.6304295Z > Task :app:compileDebugJavaWithJavac
+Run unit tests	Run unit tests	2026-06-02T21:44:26.6334029Z > Task :app:hiltSyncDebug
+Run unit tests	Run unit tests	2026-06-02T21:44:28.0220496Z > Task :app:processDebugJavaRes
+Run unit tests	Run unit tests	2026-06-02T21:44:28.1219514Z > Task :app:hiltAggregateDepsDebug
+Run unit tests	Run unit tests	2026-06-02T21:44:31.0219273Z > Task :app:hiltJavaCompileDebug
+Run unit tests	Run unit tests	2026-06-02T21:44:31.1234371Z > Task :app:bundleDebugClassesToCompileJar
+Run unit tests	Run unit tests	2026-06-02T21:44:31.9244218Z > Task :app:transformDebugClassesWithAsm
+Run unit tests	Run unit tests	2026-06-02T21:44:32.5253461Z > Task :app:bundleDebugClassesToRuntimeJar
+Run unit tests	Run unit tests	2026-06-02T21:44:33.5280945Z > Task :app:kspDebugUnitTestKotlin
+Run unit tests	Run unit tests	2026-06-02T21:44:36.7218560Z > Task :app:compileDebugUnitTestKotlin
+Run unit tests	Run unit tests	2026-06-02T21:44:36.7243927Z > Task :app:processDebugUnitTestJavaRes
+Run unit tests	Run unit tests	2026-06-02T21:44:37.0220155Z > Task :app:compileDebugUnitTestJavaWithJavac
+Run unit tests	Run unit tests	2026-06-02T21:44:37.1264346Z > Task :app:hiltSyncDebugUnitTest
+Run unit tests	Run unit tests	2026-06-02T21:44:37.5218957Z > Task :app:hiltAggregateDepsDebugUnitTest
+Run unit tests	Run unit tests	2026-06-02T21:44:37.5219894Z > Task :app:hiltJavaCompileDebugUnitTest NO-SOURCE
+Run unit tests	Run unit tests	2026-06-02T21:44:37.6224707Z > Task :app:transformDebugUnitTestClassesWithAsm
+Run unit tests	Run unit tests	2026-06-02T21:44:40.5244909Z > Task :app:testDebugUnitTest
+Run unit tests	Run unit tests	2026-06-02T21:44:40.5247160Z 
+Run unit tests	Run unit tests	2026-06-02T21:44:40.5247711Z BUILD SUCCESSFUL in 1m 50s
+Run unit tests	Run unit tests	2026-06-02T21:44:40.5248495Z 36 actionable tasks: 36 executed
+Run unit tests	Run unit tests	2026-06-02T21:44:40.6110230Z Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.4.1/userguide/configuration_cache_enabling.html
+Run unit tests	Upload unit test reports	я╗┐2026-06-02T21:44:40.9589706Z ##[group]Run actions/upload-artifact@v4
+Run unit tests	Upload unit test reports	2026-06-02T21:44:40.9590068Z with:
+Run unit tests	Upload unit test reports	2026-06-02T21:44:40.9590304Z   name: unit-test-reports
+Run unit tests	Upload unit test reports	2026-06-02T21:44:40.9590753Z   path: app/build/reports/tests/testDebugUnitTest
+Run unit tests	Upload unit test reports	app/build/test-results/testDebugUnitTest
+Run unit tests	Upload unit test reports	
+Run unit tests	Upload unit test reports	2026-06-02T21:44:40.9591251Z   if-no-files-found: warn
+Run unit tests	Upload unit test reports	2026-06-02T21:44:40.9591506Z   compression-level: 6
+Run unit tests	Upload unit test reports	2026-06-02T21:44:40.9591750Z   overwrite: false
+Run unit tests	Upload unit test reports	2026-06-02T21:44:40.9591992Z   include-hidden-files: false
+Run unit tests	Upload unit test reports	2026-06-02T21:44:40.9592247Z env:
+Run unit tests	Upload unit test reports	2026-06-02T21:44:40.9592566Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.31-11/x64
+Run unit tests	Upload unit test reports	2026-06-02T21:44:40.9593083Z   JAVA_HOME_11_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.31-11/x64
+Run unit tests	Upload unit test reports	2026-06-02T21:44:40.9593795Z ##[endgroup]
+Run unit tests	Upload unit test reports	2026-06-02T21:44:41.1861594Z Multiple search paths detected. Calculating the least common ancestor of all paths
+Run unit tests	Upload unit test reports	2026-06-02T21:44:41.1865042Z The least common ancestor is /home/runner/work/Ginger/Ginger/app/build. This will be the root directory of the artifact
+Run unit tests	Upload unit test reports	2026-06-02T21:44:41.1866061Z With the provided path, there will be 20 files uploaded
+Run unit tests	Upload unit test reports	2026-06-02T21:44:41.1870693Z Artifact name is valid!
+Run unit tests	Upload unit test reports	2026-06-02T21:44:41.1871857Z Root directory input is valid!
+Run unit tests	Upload unit test reports	2026-06-02T21:44:41.3608823Z Beginning upload of artifact content to blob storage
+Run unit tests	Upload unit test reports	2026-06-02T21:44:41.5442202Z Uploaded bytes 21328
+Run unit tests	Upload unit test reports	2026-06-02T21:44:41.5768838Z Finished uploading artifact content to blob storage!
+Run unit tests	Upload unit test reports	2026-06-02T21:44:41.5773124Z SHA256 digest of uploaded artifact zip is 1407b49d6a75cc77186d29170f82754d1493e6729989679969fa111f160c472a
+Run unit tests	Upload unit test reports	2026-06-02T21:44:41.5775166Z Finalizing artifact upload
+Run unit tests	Upload unit test reports	2026-06-02T21:44:41.7076550Z Artifact unit-test-reports.zip successfully finalized. Artifact ID 7370570733
+Run unit tests	Upload unit test reports	2026-06-02T21:44:41.7078149Z Artifact unit-test-reports has been successfully uploaded! Final size is 21328 bytes. Artifact ID is 7370570733
+Run unit tests	Upload unit test reports	2026-06-02T21:44:41.7086009Z Artifact download URL: https://github.com/faustneox/Ginger/actions/runs/26849779512/artifacts/7370570733
+Run unit tests	Post Cache Gradle	я╗┐2026-06-02T21:44:42.1094119Z Post job cleanup.
+Run unit tests	Post Cache Gradle	2026-06-02T21:44:42.2642408Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/Ginger/Ginger --files-from manifest.txt --use-compress-program zstdmt
+Run unit tests	Post Cache Gradle	2026-06-02T21:44:47.6699687Z Sent 0 of 890043293 (0.0%), 0.0 MBs/sec
+Run unit tests	Post Cache Gradle	2026-06-02T21:44:48.6708840Z Sent 536870912 of 890043293 (60.3%), 255.9 MBs/sec
+Run unit tests	Post Cache Gradle	2026-06-02T21:44:49.6716189Z Sent 755825565 of 890043293 (84.9%), 240.1 MBs/sec
+Run unit tests	Post Cache Gradle	2026-06-02T21:44:49.8651565Z Sent 890043293 of 890043293 (100.0%), 265.7 MBs/sec
+Run unit tests	Post Cache Gradle	2026-06-02T21:44:50.0215428Z Cache saved with key: Linux-gradle-85e4451fef55cfaa72da5bea4dbbab45f57624116c2fd7735b781f1d134a4661
+Run unit tests	Post Set up JDK 11	я╗┐2026-06-02T21:44:50.0385843Z Post job cleanup.
+Run unit tests	Post Run actions/checkout@v4	я╗┐2026-06-02T21:44:50.2193005Z Post job cleanup.
+Run unit tests	Post Run actions/checkout@v4	2026-06-02T21:44:50.3172563Z [command]/usr/bin/git version
+Run unit tests	Post Run actions/checkout@v4	2026-06-02T21:44:50.3213872Z git version 2.54.0
+Run unit tests	Post Run actions/checkout@v4	2026-06-02T21:44:50.3260634Z Temporarily overriding HOME='/home/runner/work/_temp/68798b62-f4b9-4e7e-bbd4-127aa0706a82' before making global git config changes
+Run unit tests	Post Run actions/checkout@v4	2026-06-02T21:44:50.3262395Z Adding repository directory to the temporary git global config as a safe directory
+Run unit tests	Post Run actions/checkout@v4	2026-06-02T21:44:50.3267619Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Ginger/Ginger
+Run unit tests	Post Run actions/checkout@v4	2026-06-02T21:44:50.3308868Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run unit tests	Post Run actions/checkout@v4	2026-06-02T21:44:50.3342482Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run unit tests	Post Run actions/checkout@v4	2026-06-02T21:44:50.3586968Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run unit tests	Post Run actions/checkout@v4	2026-06-02T21:44:50.3611907Z http.https://github.com/.extraheader
+Run unit tests	Post Run actions/checkout@v4	2026-06-02T21:44:50.3625493Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Run unit tests	Post Run actions/checkout@v4	2026-06-02T21:44:50.3655159Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run unit tests	Post Run actions/checkout@v4	2026-06-02T21:44:50.3876185Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run unit tests	Post Run actions/checkout@v4	2026-06-02T21:44:50.3906888Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run unit tests	Complete job	я╗┐2026-06-02T21:44:50.4235193Z Cleaning up orphan processes
+Run unit tests	Complete job	2026-06-02T21:44:50.4523682Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/cache@v4, actions/checkout@v4, actions/setup-java@v4, actions/upload-artifact@v4. Actions will be forced to run with Node.js 24 by default starting June 16th, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Run instrumentation tests	Set up job	я╗┐2026-06-02T21:45:07.4028226Z Current runner version: '2.334.0'
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4064778Z ##[group]Runner Image Provisioner
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4066608Z Hosted Compute Agent
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4067553Z Version: 20260520.533
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4068509Z Commit: 189110e25284a9812c124fd27b339e2fb4f2f9db
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4069816Z Build Date: 2026-05-20T17:44:04Z
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4071115Z Worker ID: {43b449fc-a6ab-47b5-b6b5-91c471167dc0}
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4072315Z Azure Region: eastus
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4073218Z ##[endgroup]
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4075645Z ##[group]Operating System
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4076766Z Ubuntu
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4077573Z 24.04.4
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4078419Z LTS
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4079243Z ##[endgroup]
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4080112Z ##[group]Runner Image
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4081507Z Image: ubuntu-24.04
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4082397Z Version: 20260525.161.1
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4084190Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260525.161/images/ubuntu/Ubuntu2404-Readme.md
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4086946Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260525.161
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4088659Z ##[endgroup]
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4090806Z ##[group]GITHUB_TOKEN Permissions
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4093865Z Contents: read
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4094829Z Metadata: read
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4095817Z Packages: read
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4096720Z ##[endgroup]
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4099809Z Secret source: Actions
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4101614Z Prepare workflow directory
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4563039Z Prepare all required actions
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.4615858Z Getting action download info
+Run instrumentation tests	Set up job	2026-06-02T21:45:07.9296373Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+Run instrumentation tests	Set up job	2026-06-02T21:45:08.0380064Z Download action repository 'actions/setup-java@v4' (SHA:c1e323688fd81a25caa38c78aa6df2d33d3e20d9)
+Run instrumentation tests	Set up job	2026-06-02T21:45:08.2751249Z Download action repository 'reactivecircus/android-emulator-runner@v2' (SHA:e89f39f1abbbd05b1113a29cf4db69e7540cae5a)
+Run instrumentation tests	Set up job	2026-06-02T21:45:08.4315857Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+Run instrumentation tests	Set up job	2026-06-02T21:45:08.6497315Z Complete job name: Run instrumentation tests
+Run instrumentation tests	Run actions/checkout@v4	я╗┐2026-06-02T21:45:08.7241907Z ##[group]Run actions/checkout@v4
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7243297Z with:
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7243937Z   repository: faustneox/Ginger
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7248780Z   token: ***
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7249455Z   ssh-strict: true
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7250079Z   ssh-user: git
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7250959Z   persist-credentials: true
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7251645Z   clean: true
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7252350Z   sparse-checkout-cone-mode: true
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7253109Z   fetch-depth: 1
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7253735Z   fetch-tags: false
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7254412Z   show-progress: true
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7255049Z   lfs: false
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7255630Z   submodules: false
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7256370Z   set-safe-directory: true
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.7257320Z ##[endgroup]
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8387230Z Syncing repository: faustneox/Ginger
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8389611Z ##[group]Getting Git version info
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8390856Z Working directory is '/home/runner/work/Ginger/Ginger'
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8392196Z [command]/usr/bin/git version
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8432449Z git version 2.54.0
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8456544Z ##[endgroup]
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8470974Z Temporarily overriding HOME='/home/runner/work/_temp/fcb80ee9-3edc-4f71-b8d0-1a0f362595a6' before making global git config changes
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8472691Z Adding repository directory to the temporary git global config as a safe directory
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8484118Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Ginger/Ginger
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8527677Z Deleting the contents of '/home/runner/work/Ginger/Ginger'
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8531807Z ##[group]Initializing the repository
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8535533Z [command]/usr/bin/git init /home/runner/work/Ginger/Ginger
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8613667Z hint: Using 'master' as the name for the initial branch. This default branch name
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8616038Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8617537Z hint: to use in all of your new repositories, which will suppress this warning,
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8619109Z hint: call:
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8620640Z hint:
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8621807Z hint: 	git config --global init.defaultBranch <name>
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8622781Z hint:
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8623808Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8625151Z hint: 'development'. The just-created branch can be renamed via this command:
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8626083Z hint:
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8626846Z hint: 	git branch -m <name>
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8627504Z hint:
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8628357Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8629987Z Initialized empty Git repository in /home/runner/work/Ginger/Ginger/.git/
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8632772Z [command]/usr/bin/git remote add origin https://github.com/faustneox/Ginger
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8669144Z ##[endgroup]
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8670267Z ##[group]Disabling automatic garbage collection
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8672875Z [command]/usr/bin/git config --local gc.auto 0
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8702097Z ##[endgroup]
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8703097Z ##[group]Setting up auth
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8709290Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.8744416Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.9065964Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.9097615Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.9324535Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.9372445Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.9607901Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.9643861Z ##[endgroup]
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.9645797Z ##[group]Fetching the repository
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:08.9654006Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +c9a0960dc92d43854f44aaa6aa30d840f5bda3a6:refs/remotes/origin/main
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:09.4154607Z From https://github.com/faustneox/Ginger
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:09.4157143Z  * [new ref]         c9a0960dc92d43854f44aaa6aa30d840f5bda3a6 -> origin/main
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:09.4244718Z ##[endgroup]
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:09.4246656Z ##[group]Determining the checkout info
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:09.4248668Z ##[endgroup]
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:09.4249845Z [command]/usr/bin/git sparse-checkout disable
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:09.4257896Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:09.4286008Z ##[group]Checking out the ref
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:09.4291314Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:09.5405803Z Switched to a new branch 'main'
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:09.5407649Z branch 'main' set up to track 'origin/main'.
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:09.5418400Z ##[endgroup]
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:09.5463509Z [command]/usr/bin/git log -1 --format=%H
+Run instrumentation tests	Run actions/checkout@v4	2026-06-02T21:45:09.5487792Z c9a0960dc92d43854f44aaa6aa30d840f5bda3a6
+Run instrumentation tests	Set up JDK 11	я╗┐2026-06-02T21:45:09.5892364Z ##[group]Run actions/setup-java@v4
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.5893558Z with:
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.5894423Z   distribution: temurin
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.5895417Z   java-version: 11
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.5896356Z   java-package: jdk
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.5897305Z   check-latest: false
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.5898500Z   server-id: github
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.5899472Z   server-username: GITHUB_ACTOR
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.5900805Z   server-password: GITHUB_TOKEN
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.5901929Z   overwrite-settings: true
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.5902986Z   job-status: success
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.5913662Z   token: ***
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.5914551Z ##[endgroup]
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.7932910Z ##[group]Installed distributions
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.7986133Z Resolved Java 11.0.31+11 from tool-cache
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.7988247Z Setting Java 11.0.31+11 as the default
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.8001632Z Creating toolchains.xml for JDK version 11 from temurin
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.8078826Z Writing to /home/runner/.m2/toolchains.xml
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.8080963Z 
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.8082099Z Java configuration:
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.8083626Z   Distribution: temurin
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.8085029Z   Version: 11.0.31+11
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.8087010Z   Path: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.31-11/x64
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.8088785Z 
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.8090275Z ##[endgroup]
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.8107603Z Creating settings.xml with server-id: github
+Run instrumentation tests	Set up JDK 11	2026-06-02T21:45:09.8109105Z Writing to /home/runner/.m2/settings.xml
+Run instrumentation tests	Start emulator	я╗┐2026-06-02T21:45:09.8376279Z ##[group]Run reactivecircus/android-emulator-runner@v2
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8377616Z with:
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8378421Z   api-level: 30
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8379292Z   target: google_apis
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8380186Z   arch: x86_64
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8381612Z   emulator-options: -no-window -gpu swiftshader_indirect
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8382932Z   cores: 2
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8383746Z   avd-name: test
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8384622Z   force-avd-creation: true
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8385629Z   emulator-boot-timeout: 600
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8386646Z   emulator-port: 5554
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8387574Z   disable-animations: true
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8388578Z   disable-spellchecker: false
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8389634Z   disable-linux-hw-accel: auto
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8390783Z   enable-hw-keyboard: false
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8391786Z   channel: stable
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8392627Z env:
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8393824Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.31-11/x64
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8395784Z   JAVA_HOME_11_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.31-11/x64
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.8397412Z ##[endgroup]
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9006814Z ##[group]Configure emulator
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9011263Z You're running a Linux VM where hardware acceleration is not available. Please consider using a macOS VM instead to take advantage of native hardware acceleration support provided by HAXM.
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9015113Z API level: 30
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9016345Z System image API level: 30
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9017817Z target: google_apis
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9019113Z CPU architecture: x86_64
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9020766Z Hardware profile: 
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9022019Z Cores: 2
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9023146Z RAM size: 
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9024283Z Heap size: 
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9025304Z SD card path or size: 
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9026305Z Disk size: 
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9027146Z AVD name: test
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9028045Z force avd creation: true
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9029059Z Emulator boot timeout: 600
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9030111Z emulator port: 5554
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9031655Z emulator options: -no-window -gpu swiftshader_indirect
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9033037Z disable animations: true
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9034060Z disable spellchecker: false
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9035181Z disable Linux hardware acceleration: true
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9036395Z enable hardware keyboard: false
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9037451Z Channel: 0 (stable)
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9039475Z ##[group]Terminate Emulator
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9049598Z Unable to locate executable file: adb. Please verify either the file path exists or the file can be found within a directory specified by the PATH environment variable. Also check the file mode to verify the file is executable.
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9055495Z ##[endgroup]
+Run instrumentation tests	Start emulator	2026-06-02T21:45:09.9078180Z ##[error]Input required and not supplied: script
+Run instrumentation tests	Post Set up JDK 11	я╗┐2026-06-02T21:45:09.9342450Z Post job cleanup.
+Run instrumentation tests	Post Run actions/checkout@v4	я╗┐2026-06-02T21:45:10.1259169Z Post job cleanup.
+Run instrumentation tests	Post Run actions/checkout@v4	2026-06-02T21:45:10.2277322Z [command]/usr/bin/git version
+Run instrumentation tests	Post Run actions/checkout@v4	2026-06-02T21:45:10.2313547Z git version 2.54.0
+Run instrumentation tests	Post Run actions/checkout@v4	2026-06-02T21:45:10.2356931Z Temporarily overriding HOME='/home/runner/work/_temp/e162efc7-af85-4295-906d-636a49889e1e' before making global git config changes
+Run instrumentation tests	Post Run actions/checkout@v4	2026-06-02T21:45:10.2361437Z Adding repository directory to the temporary git global config as a safe directory
+Run instrumentation tests	Post Run actions/checkout@v4	2026-06-02T21:45:10.2364772Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Ginger/Ginger
+Run instrumentation tests	Post Run actions/checkout@v4	2026-06-02T21:45:10.2406093Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run instrumentation tests	Post Run actions/checkout@v4	2026-06-02T21:45:10.2438853Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run instrumentation tests	Post Run actions/checkout@v4	2026-06-02T21:45:10.2674295Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run instrumentation tests	Post Run actions/checkout@v4	2026-06-02T21:45:10.2697662Z http.https://github.com/.extraheader
+Run instrumentation tests	Post Run actions/checkout@v4	2026-06-02T21:45:10.2709833Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Run instrumentation tests	Post Run actions/checkout@v4	2026-06-02T21:45:10.2742344Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run instrumentation tests	Post Run actions/checkout@v4	2026-06-02T21:45:10.2971552Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run instrumentation tests	Post Run actions/checkout@v4	2026-06-02T21:45:10.3003722Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run instrumentation tests	Complete job	я╗┐2026-06-02T21:45:10.3387008Z Cleaning up orphan processes
+Run instrumentation tests	Complete job	2026-06-02T21:45:10.3780049Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, actions/setup-java@v4. Actions will be forced to run with Node.js 24 by default starting June 16th, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

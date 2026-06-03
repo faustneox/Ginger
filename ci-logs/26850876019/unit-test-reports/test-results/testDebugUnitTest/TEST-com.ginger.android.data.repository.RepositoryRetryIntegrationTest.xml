@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ginger.android.data.repository.RepositoryRetryIntegrationTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-06-02T22:08:45.303Z" hostname="runnervm3jyl0" time="0.13">
+  <properties/>
+  <testcase name="loginRemote retries on temporary network failure" classname="com.ginger.android.data.repository.RepositoryRetryIntegrationTest" time="0.104"/>
+  <testcase name="fetchRemoteAll retries on temporary failure" classname="com.ginger.android.data.repository.RepositoryRetryIntegrationTest" time="0.002"/>
+  <testcase name="retry handles socket exception" classname="com.ginger.android.data.repository.RepositoryRetryIntegrationTest" time="0.002"/>
+  <testcase name="loginRemote succeeds on first try" classname="com.ginger.android.data.repository.RepositoryRetryIntegrationTest" time="0.002"/>
+  <testcase name="retry handles connection timeout" classname="com.ginger.android.data.repository.RepositoryRetryIntegrationTest" time="0.002"/>
+  <testcase name="retry with partial data response" classname="com.ginger.android.data.repository.RepositoryRetryIntegrationTest" time="0.002"/>
+  <testcase name="loginRemote throws after max retries" classname="com.ginger.android.data.repository.RepositoryRetryIntegrationTest" time="0.005"/>
+  <testcase name="retry handles intermittent failures" classname="com.ginger.android.data.repository.RepositoryRetryIntegrationTest" time="0.002"/>
+  <testcase name="retry handles multiple failures and recovers" classname="com.ginger.android.data.repository.RepositoryRetryIntegrationTest" time="0.004"/>
+  <testcase name="fetchRemoteAll succeeds immediately" classname="com.ginger.android.data.repository.RepositoryRetryIntegrationTest" time="0.002"/>
+  <testcase name="fetchRemoteAll fails after all retries" classname="com.ginger.android.data.repository.RepositoryRetryIntegrationTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

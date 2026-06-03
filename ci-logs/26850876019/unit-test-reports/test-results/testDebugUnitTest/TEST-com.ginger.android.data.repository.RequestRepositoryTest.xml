@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ginger.android.data.repository.RequestRepositoryTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2026-06-02T22:08:45.448Z" hostname="runnervm3jyl0" time="0.01">
+  <properties/>
+  <testcase name="request can have custom category" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="request can track update count" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="count requests by status" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="request owner phone is required" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.001"/>
+  <testcase name="find request by id" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="requests can be filtered by status NEW" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="request title is required and not empty" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="request field update validates title not empty" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="requests can be filtered by status CLOSED" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.001"/>
+  <testcase name="requests can be filtered by owner phone AND status" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="requests are sorted by creation date descending" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.001"/>
+  <testcase name="request has unique id" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="filter returns empty list when no matching requests" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.001"/>
+  <testcase name="request can be closed with CLOSED status" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="request not found returns null" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="requests can be filtered by owner phone" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="request can have category Internet" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="request description is required and not empty" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.001"/>
+  <testcase name="request can have category Power" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="request can have category Water" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="requests can be filtered by status IN_PROGRESS" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.001"/>
+  <testcase name="request can be moved to IN_PROGRESS status" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="user with no requests returns empty list" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="request can be created with NEW status" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <testcase name="request field update validates description not empty" classname="com.ginger.android.data.repository.RequestRepositoryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
