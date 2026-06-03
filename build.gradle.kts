@@ -22,3 +22,21 @@ plugins {
   // Crashlytics Gradle plugin
   id("com.google.firebase.crashlytics") version "2.9.5" apply false
 }
+
+// Declare Firebase BOM for Android modules from root so app/library modules
+// can inherit the BOM without adding it individually. We attach the BOM
+// only when the Android plugin is applied to avoid applying to non-Android projects.
+subprojects {
+  plugins.withId("com.android.application") {
+    dependencies.add("implementation", dependencies.enforcedPlatform("com.google.firebase:firebase-bom:34.14.0"))
+    // Add explicit constraints for KTX artifacts that are not covered by the BOM
+    dependencies.constraints.add("implementation", "com.google.firebase:firebase-firestore-ktx:25.1.4")
+    dependencies.constraints.add("implementation", "com.google.firebase:firebase-storage-ktx:21.0.2")
+  }
+  plugins.withId("com.android.library") {
+    dependencies.add("implementation", dependencies.enforcedPlatform("com.google.firebase:firebase-bom:34.14.0"))
+    // Add explicit constraints for KTX artifacts that are not covered by the BOM
+    dependencies.constraints.add("implementation", "com.google.firebase:firebase-firestore-ktx:25.1.4")
+    dependencies.constraints.add("implementation", "com.google.firebase:firebase-storage-ktx:21.0.2")
+  }
+}

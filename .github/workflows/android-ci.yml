@@ -49,25 +49,46 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up JDK 11
+      - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '11'
+          java-version: '17'
 
-      - name: Start emulator
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Ensure ADB server
+        run: |
+          ANDROID_HOME=${ANDROID_SDK_ROOT:-/usr/local/lib/android/sdk}
+          $ANDROID_HOME/platform-tools/adb kill-server || true
+          $ANDROID_HOME/platform-tools/adb start-server
+          $ANDROID_HOME/platform-tools/adb devices
+
+      - name: Start emulator and run connected tests
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 30
           target: google_apis
           arch: x86_64
-          emulator-options: '-no-window -gpu swiftshader_indirect'
-
-      - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
-
-      - name: Run connected tests
-        run: ./gradlew :app:connectedDebugAndroidTest --no-daemon
+          emulator-options: '-no-window -gpu swiftshader_indirect -no-snapshot-load -wipe-data'
+          script: |
+            ADB="${ANDROID_SDK_ROOT:-/usr/local/lib/android/sdk}/platform-tools/adb"
+            $ADB -s emulator-5554 wait-for-device
+            for i in $(seq 1 60); do
+              state=$($ADB -s emulator-5554 shell getprop sys.boot_completed 2>/dev/null || echo)
+              if [ "$state" = "1" ]; then
+                sleep 5
+                break
+              fi
+              sleep 5
+            done
+            attempt=0
+            until $ADB -s emulator-5554 shell input keyevent 82 || [ $attempt -ge 5 ]; do
+              attempt=$((attempt+1))
+              sleep 3
+            done
+            ./gradlew :app:connectedDebugAndroidTest --no-daemon
 
       - name: Upload instrumentation test reports
         uses: actions/upload-artifact@v4
