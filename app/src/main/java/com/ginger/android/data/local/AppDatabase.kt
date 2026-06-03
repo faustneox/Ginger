@@ -24,22 +24,22 @@ abstract class AppDatabase : RoomDatabase() {
         private var INSTANCE: AppDatabase? = null
 
         private val MIGRATION_7_8 = object : Migration(7, 8) {
-            override fun migrate(database: SupportSQLiteDatabase) {}
+            override fun migrate(db: SupportSQLiteDatabase) {}
         }
 
         private val MIGRATION_8_9 = object : Migration(8, 9) {
-            override fun migrate(database: SupportSQLiteDatabase) {
-                database.execSQL("ALTER TABLE users ADD COLUMN google_id TEXT")
-                database.execSQL("ALTER TABLE users ADD COLUMN google_email TEXT")
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL("ALTER TABLE users ADD COLUMN google_id TEXT")
+                db.execSQL("ALTER TABLE users ADD COLUMN google_email TEXT")
             }
         }
 
         private val MIGRATION_9_10 = object : Migration(9, 10) {
-            override fun migrate(database: SupportSQLiteDatabase) {
-                database.execSQL("CREATE TABLE users_new (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, full_name TEXT NOT NULL, phone TEXT, password TEXT, is_admin INTEGER NOT NULL, google_id TEXT, google_email TEXT)")
-                database.execSQL("INSERT INTO users_new (id, full_name, phone, password, is_admin, google_id, google_email) SELECT id, full_name, phone, password, is_admin, google_id, google_email FROM users WHERE id IN (SELECT MIN(id) FROM users GROUP BY phone)")
-                database.execSQL("DROP TABLE users")
-                database.execSQL("ALTER TABLE users_new RENAME TO users")
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL("CREATE TABLE users_new (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, full_name TEXT NOT NULL, phone TEXT, password TEXT, is_admin INTEGER NOT NULL, google_id TEXT, google_email TEXT)")
+                db.execSQL("INSERT INTO users_new (id, full_name, phone, password, is_admin, google_id, google_email) SELECT id, full_name, phone, password, is_admin, google_id, google_email FROM users WHERE id IN (SELECT MIN(id) FROM users GROUP BY phone)")
+                db.execSQL("DROP TABLE users")
+                db.execSQL("ALTER TABLE users_new RENAME TO users")
             }
         }
 

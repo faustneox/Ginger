@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.ginger.android.ui.auth
 
 import android.app.AlertDialog
@@ -30,13 +32,14 @@ import com.ginger.android.data.session.SessionManager
 import com.ginger.android.databinding.ActivityLoginBinding
 import com.google.android.material.textfield.TextInputEditText
 import kotlinx.coroutines.launch
-import com.google.android.gms.auth.api.signin.GoogleSignIn
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount
-import com.google.android.gms.auth.api.signin.GoogleSignInClient
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions
-import com.google.android.gms.common.api.ApiException
-import com.google.android.gms.tasks.Task
+import com.google.android.gms.auth.api.identity.BeginSignInRequest
+import com.google.android.gms.auth.api.identity.Identity
+import com.google.android.gms.auth.api.identity.SignInClient
+import com.google.android.gms.auth.api.identity.SignInCredential
+import androidx.activity.result.IntentSenderRequest
+import android.content.IntentSender
 
+@Suppress("DEPRECATION")
 @AndroidEntryPoint
 class LoginActivity : BaseActivity() {
 
@@ -45,7 +48,7 @@ class LoginActivity : BaseActivity() {
     }
 
     private lateinit var binding: ActivityLoginBinding
-    private lateinit var googleSignInClient: GoogleSignInClient
+    private lateinit var signInClient: SignInClient
     @Inject
     lateinit var sessionManager: SessionManager
 
@@ -54,7 +57,7 @@ class LoginActivity : BaseActivity() {
     private var googlePhoneDialog: AlertDialog? = null
     private var currentPhoneRequiredState: LoginViewModel.LoginUiState.PhoneNumberRequired? = null
 
-    private lateinit var googleSignInLauncher: ActivityResultLauncher<Intent>
+    private lateinit var googleSignInLauncher: ActivityResultLauncher<IntentSenderRequest>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -138,32 +141,55 @@ class LoginActivity : BaseActivity() {
     }
 
     private fun setupGoogleSignIn() {
+        signInClient = Identity.getSignInClient(this)
+
         googleSignInLauncher = registerForActivityResult(
-            ActivityResultContracts.StartActivityForResult()
+            ActivityResultContracts.StartIntentSenderForResult()
         ) { result ->
-            // Важно: для Google Sign-In НЕ проверяем жёстко RESULT_OK.
-            // Даже при успешном выборе аккаунта иногда приходит RESULT_CANCELED.
-            // Реальный результат определяется внутри getSignedInAccountFromIntent().
-            if (result.data != null) {
-                handleGoogleSignInResult(result.data!!)
+            if (result.resultCode == RESULT_OK && result.data != null) {
+                try {
+                    val credential: SignInCredential = signInClient.getSignInCredentialFromIntent(result.data!!)
+                    val googleId = credential.id
+                    val email = credential.id
+                    val displayName = credential.displayName
+
+                    processGoogleSignIn(googleId ?: "", email, displayName)
+                } catch (e: Exception) {
+                    Timber.e(e, "Google sign-in processing error")
+                    showErrorBanner(binding.textLoginError, getString(R.string.error_google_sign_in))
+                }
             } else {
                 // Пользователь закрыл окно без выбора
                 showGoogleAuthError()
             }
         }
 
-        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-            .requestEmail()
-            .requestId()
-            .requestProfile()
-            .build()
-        googleSignInClient = GoogleSignIn.getClient(this, gso)
-
         binding.googleSignInButton.setOnClickListener {
-            googleSignInClient.signOut().addOnCompleteListener {
-                val signInIntent = googleSignInClient.signInIntent
-                googleSignInLauncher.launch(signInIntent)
-            }
+            val signInRequest = BeginSignInRequest.builder()
+                .setGoogleIdTokenRequestOptions(
+                    BeginSignInRequest.GoogleIdTokenRequestOptions.builder()
+                        .setSupported(true)
+                        // .setServerClientId(getString(R.string.server_client_id)) // set if available
+                        .setFilterByAuthorizedAccounts(false)
+                        .build()
+                )
+                .setAutoSelectEnabled(false)
+                .build()
+
+            signInClient.beginSignIn(signInRequest)
+                .addOnSuccessListener(this) { result ->
+                    try {
+                        val intentSenderRequest = IntentSenderRequest.Builder(result.pendingIntent.intentSender).build()
+                        googleSignInLauncher.launch(intentSenderRequest)
+                    } catch (e: Exception) {
+                        Timber.e(e, "Could not launch sign-in intent")
+                        showGoogleAuthError()
+                    }
+                }
+                .addOnFailureListener { e ->
+                    Timber.e(e, "Google identity beginSignIn failed")
+                    showGoogleAuthError()
+                }
         }
     }
 
@@ -192,29 +218,15 @@ class LoginActivity : BaseActivity() {
         }
     }
 
-    private fun handleGoogleSignInResult(data: Intent) {
-        try {
-            val task: Task<GoogleSignInAccount> = GoogleSignIn.getSignedInAccountFromIntent(data)
-            val account: GoogleSignInAccount? = task.getResult(ApiException::class.java)
-
-            if (account != null) {
-                processGoogleSignIn(account)
-            } else {
-                showGoogleAuthError()
-            }
-        } catch (e: ApiException) {
-            Timber.e(e, "Google sign-in failed, statusCode=%s", e.statusCode)
-
-            // 12501 = SIGN_IN_CANCELLED — пользователь сам отменил вход
-            if (e.statusCode == 12501) {
-                hideErrorBanner(binding.textLoginError)
-            } else {
-                showGoogleAuthError()
-            }
-        } catch (e: Exception) {
-            Timber.e(e, "Google sign-in processing error")
-            showErrorBanner(binding.textLoginError, getString(R.string.error_google_sign_in))
+    private fun handleSignInCredential(credential: SignInCredential) {
+        val googleId = credential.id ?: run {
+            showGoogleAuthError()
+            return
         }
+        val email = credential.id
+        val displayName = credential.displayName
+
+        processGoogleSignIn(googleId, email, displayName)
     }
 
     private fun showGoogleAuthError() {
@@ -254,8 +266,8 @@ class LoginActivity : BaseActivity() {
         dialog.show()
     }
 
-    private fun processGoogleSignIn(account: GoogleSignInAccount) {
-        viewModel.handleGoogleSignIn(account)
+    private fun processGoogleSignIn(googleId: String, email: String?, displayName: String?) {
+        viewModel.handleGoogleSignIn(googleId, email, displayName)
     }
 
     private fun attemptLogin() {

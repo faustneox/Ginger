@@ -132,14 +132,14 @@ class LoginViewModel @Inject constructor(
      * Если не найден или нет номера — требует ввод номера телефона.
      * @param account Google аккаунт (из GoogleSignInClient)
      */
-    fun handleGoogleSignIn(account: com.google.android.gms.auth.api.signin.GoogleSignInAccount) {
-        val googleId = account.id ?: run {
+    fun handleGoogleSignIn(googleIdParam: String?, googleEmail: String?, displayNameParam: String?) {
+        val googleId = googleIdParam ?: run {
             _uiState.value = LoginUiState.Error(appContext.getString(R.string.error_google_id_failed))
             return
         }
 
-        val email = account.email
-        val displayName = account.displayName ?: email ?: "Пользователь Google"
+        val email = googleEmail
+        val displayName = displayNameParam ?: email ?: "Пользователь Google"
 
         if (!actionGuard.startGlobal()) return
         _uiState.value = LoginUiState.Loading

@@ -1,0 +1,802 @@
+﻿[
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\logcat_dump.txt",
+        "SizeMB":  32.82
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\logcat_dump.txt",
+        "SizeMB":  32.82
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\outputs\\apk\\debug\\app-debug.apk",
+        "SizeMB":  14.41
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex",
+        "SizeMB":  11.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex",
+        "SizeMB":  8.14
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex",
+        "SizeMB":  8.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes4.dex",
+        "SizeMB":  3.16
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kspCaches\\debug\\classpath-structure.bin",
+        "SizeMB":  2.94
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\runtime_app_classes_jar\\debug\\bundleDebugClassesToRuntimeJar\\classes.jar",
+        "SizeMB":  2.29
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\compile_app_classes_jar\\debug\\bundleDebugClassesToCompileJar\\classes.jar",
+        "SizeMB":  2.29
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug\\mergeDebugResources\\merger.xml",
+        "SizeMB":  2.14
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\linked_resources_binary_format\\debug\\processDebugResources\\linked-resources-binary-format-debug.ap_",
+        "SizeMB":  1.69
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\merged_res_blame_folder\\debug\\mergeDebugResources\\out\\multi-v2\\mergeDebugResources.json",
+        "SizeMB":  1.09
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\classes\\debug\\transformDebugClassesWithAsm\\jars\\0.jar",
+        "SizeMB":  0.97
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\compile_and_runtime_r_class_jar\\debug\\processDebugResources\\R.jar",
+        "SizeMB":  0.95
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\merged_res\\debug\\mergeDebugResources\\values_values.arsc.flat",
+        "SizeMB":  0.85
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "SizeMB":  0.79
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex",
+        "SizeMB":  0.54
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\stable_resource_ids_file\\debug\\processDebugResources\\stableIds.txt",
+        "SizeMB":  0.38
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\runtime_symbol_list\\debug\\processDebugResources\\R.txt",
+        "SizeMB":  0.36
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\qqIK_vEtL7XDbBdGIN1t_Q==",
+        "SizeMB":  0.3
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ci-logs\\26850876019\\run-26850876019-full.log",
+        "SizeMB":  0.28
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\lookups\\lookups.tab.keystream",
+        "SizeMB":  0.26
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\La3sy73hr2rgDVH+_oUPfA==",
+        "SizeMB":  0.24
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\merged_java_res\\debug\\mergeDebugJavaResource\\base.jar",
+        "SizeMB":  0.24
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\0o+0AVnFZZr7cMHwP7na6g==",
+        "SizeMB":  0.22
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\KUHa8ezHCuTrOzSQOHUHgQ==",
+        "SizeMB":  0.22
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\symbol_list_with_package_name\\debug\\processDebugResources\\package-aware-r.txt",
+        "SizeMB":  0.22
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\merged_res_blame_folder\\debug\\mergeDebugResources\\out\\multi-v2\\values.json",
+        "SizeMB":  0.21
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\Jln960NBfKqVXQcd2gBtPA==",
+        "SizeMB":  0.18
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\outputs\\logs\\manifest-merger-debug-report.txt",
+        "SizeMB":  0.15
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\t2H4cR6_AIdJSDA6ZD0CPw==",
+        "SizeMB":  0.15
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex",
+        "SizeMB":  0.14
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\dXwjPRqisgTNdjNIJxDgGA==",
+        "SizeMB":  0.14
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\oksWCf9oY25e6jhAz8pGWw==",
+        "SizeMB":  0.13
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex",
+        "SizeMB":  0.13
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\q_FcSqusZ3+6LjRvr2Z01Q==",
+        "SizeMB":  0.13
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\packageDebug\\tmp\\debug\\zip-cache\\androidResources",
+        "SizeMB":  0.12
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\build\\reports\\problems\\problems-report.html",
+        "SizeMB":  0.12
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\build\\reports\\problems\\problems-report.html",
+        "SizeMB":  0.12
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ci-logs\\run-26849779512.log",
+        "SizeMB":  0.12
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\global_synthetics_dex\\debug\\generateDebugGlobalSynthetics\\classes.dex",
+        "SizeMB":  0.12
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\tmp\\hiltJavaCompileDebug\\previous-compilation-data.bin",
+        "SizeMB":  0.11
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\gradle-deps-debug.txt",
+        "SizeMB":  0.11
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\gradle-deps-debug.txt",
+        "SizeMB":  0.11
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\tmp\\compileDebugJavaWithJavac\\previous-compilation-data.bin",
+        "SizeMB":  0.11
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\classpath-snapshot\\shrunk-classpath-snapshot.bin",
+        "SizeMB":  0.1
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\ulOc_pQz5L26bwWSUr+lrg==",
+        "SizeMB":  0.1
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\lookups\\lookups.tab_i",
+        "SizeMB":  0.09
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\project_dex_archive\\debug\\dexBuilderDebug\\out\\d221cab40dc653af82839a46a14e1b6e485e9a1a54492ad5292f7b9c671759ba_5.jar",
+        "SizeMB":  0.09
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\.idea\\caches\\deviceStreaming.xml",
+        "SizeMB":  0.09
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\bOaeW1mAHD4oRmdUmYzS8w==",
+        "SizeMB":  0.09
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\debugUnitTestCompileDeps.txt",
+        "SizeMB":  0.09
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\debugUnitTestCompileDeps.txt",
+        "SizeMB":  0.09
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kspCaches\\debug\\symbols",
+        "SizeMB":  0.09
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex",
+        "SizeMB":  0.08
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\build.log",
+        "SizeMB":  0.08
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\build.log",
+        "SizeMB":  0.08
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\9g6h7GiXs55QRxDLnxzDqw==",
+        "SizeMB":  0.08
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex",
+        "SizeMB":  0.08
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ci-logs\\26850876019\\matches.txt",
+        "SizeMB":  0.07
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\0_KK7uIzpfPCz28qMZ4J9Q==",
+        "SizeMB":  0.07
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\RoQtiUco5f4RQpztD66iTg==",
+        "SizeMB":  0.06
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\X8Diru0iCh1xuxLd6Od5EA==",
+        "SizeMB":  0.06
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ci-logs\\run-26850500866.zip",
+        "SizeMB":  0.06
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\iKrpMHX2yBP+5Ip5V5GQCw==",
+        "SizeMB":  0.06
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ci-logs\\run-26849779512.utf8.log",
+        "SizeMB":  0.06
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\pasDfW8eL876AUDx60dQBg==",
+        "SizeMB":  0.06
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex",
+        "SizeMB":  0.06
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kspCaches\\debug\\symbolLookups\\file-to-id.tab.keystream",
+        "SizeMB":  0.06
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\compile_stacktrace.txt",
+        "SizeMB":  0.06
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\compile_stacktrace.txt",
+        "SizeMB":  0.06
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\faeznb7mHg3oi2qTgrXe5Q==",
+        "SizeMB":  0.05
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\manifest_merge_blame_file\\debug\\processDebugMainManifest\\manifest-merger-blame-debug-report.txt",
+        "SizeMB":  0.05
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\MQcCQC5JFeF4sJuVcRXrjw==",
+        "SizeMB":  0.05
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\0tp6PNAVec_JfZMSe4zyLA==",
+        "SizeMB":  0.05
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\IWUq4pP74OXy8a2I_Cpxlg==",
+        "SizeMB":  0.05
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\o2682sYoygQkMp3JHFH3Xw==",
+        "SizeMB":  0.05
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\lookups\\lookups.tab",
+        "SizeMB":  0.05
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\QJ8SEaSlsRiUG2p3AJsy0Q==",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\HXcovsXXWJSLhH3luV0lvw==",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\release-build-tee.log",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\release-build-tee.log",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\merged_res\\debug\\mergeDebugResources\\values-v31_values-v31.arsc.flat",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\debugUnitTestCompileDeps.utf8.txt",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\debugUnitTestCompileDeps.utf8.txt",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug\\mergeDebugResources\\merged.dir\\values-v31\\values-v31.xml",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\classpath-snapshot\\shrunk-classpath-snapshot.bin",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\merged_res\\debug\\mergeDebugResources\\values-v21_values-v21.arsc.flat",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\project_dex_archive\\debug\\dexBuilderDebug\\out\\d221cab40dc653af82839a46a14e1b6e485e9a1a54492ad5292f7b9c671759ba_4.jar",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kspCaches\\debug\\symbolLookups\\lookups.tab.keystream",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\internal-name-to-source.tab.keystream",
+        "SizeMB":  0.04
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\YAzB+eiApuot34BhYafUBQ==",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\i0bLETr8NXtop1JV2rI_xA==",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\kNSnm6GTh6IJUsZtktme5w==",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\build_output3.txt",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\build_output3.txt",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\Pm1ylLWWoR_nFq35Zkh73Q==",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\build_output.txt",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\build_output2.txt",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\build_output.txt",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\build_output2.txt",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ci-logs\\run-26850500866.fixed.zip",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\nBAE07Mtz0wI08cv7hsSmA==",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\class-attributes.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kspCaches\\debug\\symbolLookups\\id-to-file.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kspCaches\\debug\\symbolLookups\\lookups.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\proto.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\lookups\\file-to-id.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\cacheable\\caches-jvm\\inputs\\source-to-output.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\internal-name-to-source.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kspCaches\\debug\\symbolLookups\\file-to-id.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\lookups\\id-to-file.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\class-fq-name-to-source.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\class-fq-name-to-source.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\constants.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\inline-functions.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\cacheable\\caches-jvm\\lookups\\id-to-file.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\cacheable\\caches-jvm\\lookups\\lookups.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\inputs\\source-to-output.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\class-attributes.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\internal-name-to-source.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\supertypes.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\subtypes.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\supertypes.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\source-to-classes.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\package-parts.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\cacheable\\caches-jvm\\lookups\\file-to-id.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\proto.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\source-to-classes.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\subtypes.tab_i",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\tmp\\compileDebugUnitTestJavaWithJavac\\previous-compilation-data.bin",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\cacheable\\caches-jvm\\inputs\\source-to-output.tab.values.at",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\classes\\debug\\transformDebugClassesWithAsm\\dirs\\com\\ginger\\android\\ui\\requests\\MainActivity.class",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\eammHHMQ_1lM77NbsF5Frg==",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\built_in_kotlinc\\debug\\compileDebugKotlin\\classes\\com\\ginger\\android\\ui\\requests\\MainActivity.class",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\project_dex_archive\\debug\\dexBuilderDebug\\out\\com\\ginger\\android\\ui\\requests\\MainActivity.dex",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\generated\\hilt\\component_sources\\debug\\com\\ginger\\android\\DaggerGingerApp_HiltComponents_SingletonC.java",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\project_dex_archive\\debug\\dexBuilderDebug\\out\\d221cab40dc653af82839a46a14e1b6e485e9a1a54492ad5292f7b9c671759ba_3.jar",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\l5v0Q8NZbbOnwF46ICgq7Q==",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\merged_res\\debug\\mergeDebugResources\\layout_activity_main.xml.flat",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\compile_stacktrace.utf8.txt",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\compile_stacktrace.utf8.txt",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\project_dex_archive\\debug\\dexBuilderDebug\\out\\d221cab40dc653af82839a46a14e1b6e485e9a1a54492ad5292f7b9c671759ba_2.jar",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\generated\\ksp\\debug\\kotlin\\com\\ginger\\android\\data\\local\\RequestDao_Impl.kt",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kspCaches\\debug\\backups\\kotlin\\com\\ginger\\android\\data\\local\\RequestDao_Impl.kt",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\debug-build.log",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\debug-build.log",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\compile_error.log",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\compile_error.log",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\x5JBNVeYNF68R9fsICgZEg==",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\merge-state",
+        "SizeMB":  0.03
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\packageDebug\\tmp\\debug\\zip-cache\\javaResources0",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\hFuOgz69M5+pKmj8h+BccQ==",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug\\packageDebugResources\\merger.xml",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\r1Dm4KfwI56wpXdDjwBP_Q==",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\classes\\debug\\transformDebugClassesWithAsm\\dirs\\com\\ginger\\android\\ui\\auth\\LoginActivity.class",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\built_in_kotlinc\\debug\\compileDebugKotlin\\classes\\com\\ginger\\android\\ui\\auth\\LoginActivity.class",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kspCaches\\debug\\symbolLookups\\id-to-file.tab.values.at",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\Nw5DF+NSkuvARFjeLEEicw==",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\release-build.log",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\release-build.log",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\proto.tab.values",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\bTi8b+oUwaGfXqn9OrMOrA==",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug\\packageDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\src\\main\\res\\layout\\activity_main.xml",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\app\\src\\main\\res\\layout\\activity_main.xml",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\packaged_res\\debug\\packageDebugResources\\layout\\activity_main.xml",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\vDOtRI2p2ZEcZMR1OJwwWg==",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\project_dex_archive\\debug\\dexBuilderDebug\\out\\com\\ginger\\android\\ui\\auth\\LoginActivity.dex",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\9F3Hd1Nsx98+eEZEFUF4lQ==",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\VreQdom+6HbLrJGL0mlUUQ==",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\cacheable\\caches-jvm\\lookups\\lookups.tab.keystream",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugUnitTestKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\internal-name-to-source.tab.keystream",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kotlin\\compileDebugKotlin\\cacheable\\caches-jvm\\jvm\\kotlin\\proto.tab.keystream",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\PHJ9GLdsufcdfxFYACl97w==",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\test_out5.txt",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\test_out5.txt",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\8zg2evZi87YWuZToATxnkA==",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\kspCaches\\debug\\classpath-entries.bin",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\VXFZ9t57YgL6JeER8Kpv3w==",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\project_dex_archive\\debug\\dexBuilderDebug\\out\\com\\ginger\\android\\data\\local\\RequestDao_Impl.dex",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\mY+m6jtd2TAzzQjioaQzdA==",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\build_output4.txt",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\ginger-pr\\build_output4.txt",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug-mergeJavaRes\\zip-cache\\U468bg0dj6l+uokoWkQsMQ==",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\merged_res\\debug\\mergeDebugResources\\layout_activity_request_detail.xml.flat",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\built_in_kotlinc\\debug\\compileDebugKotlin\\classes\\com\\ginger\\android\\data\\local\\RequestDao_Impl.class",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\classes\\debug\\transformDebugClassesWithAsm\\dirs\\com\\ginger\\android\\data\\local\\RequestDao_Impl.class",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug\\mergeDebugResources\\merged.dir\\values-ml\\values-ml.xml",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug\\mergeDebugResources\\merged.dir\\values-my\\values-my.xml",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\classes\\debug\\transformDebugClassesWithAsm\\dirs\\com\\ginger\\android\\ui\\requests\\RequestDetailActivity.class",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\built_in_kotlinc\\debug\\compileDebugKotlin\\classes\\com\\ginger\\android\\ui\\requests\\RequestDetailActivity.class",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
+        "SizeMB":  0.02
+    },
+    {
+        "Path":  "C:\\Users\\AntonM\\Desktop\\Ginger\\app\\build\\intermediates\\incremental\\debug\\mergeDebugResources\\merged.dir\\values-te\\values-te.xml",
+        "SizeMB":  0.02
+    }
+]
