@@ -13,3 +13,31 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Generated logs, CI artifacts and local run outputs
+/ci-logs/
+/local-run-logs/
+/local-run-logs/*
+/ci-logs/*
+
+# Build and test outputs
+/app/build/
+/build_output*.txt
+/build.log
+/build_compile.log
+/compile_stacktrace*.txt
+/debugUnitTestCompileDeps*.txt
+/gradle-deps-debug.txt
+/debugUnitTestCompileDeps.utf8.txt
+/test_out*.txt
+/test_run_log.txt
+/tmp_parse_output.txt
+/unit_test_results.txt
+
+# Script-generated metadata
+/scripts/latest-versions.json
+/scripts/stable-candidates.json
+
+# Misc local logs
+/logcat_dump.txt
+
