@@ -79,7 +79,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.room.runtime)
     ksp(libs.androidx.room.compiler)
-    implementation("androidx.room:room-paging:2.8.2")
+    implementation("androidx.room:room-paging:2.8.4")
 
     // Kotlin + Coroutines + Lifecycle (для MVVM)
     implementation(libs.kotlinx.coroutines.android)
@@ -102,18 +102,18 @@ dependencies {
     ksp("com.google.dagger:hilt-compiler:2.59.2")
 
     testImplementation(libs.junit)
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.2")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.11.0")
     testImplementation("io.mockk:mockk:1.14.3")
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation("androidx.room:room-testing:2.8.2")
+    androidTestImplementation("androidx.room:room-testing:2.8.4")
 
     // Retrofit + OkHttp
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.retrofit2:retrofit:2.10.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.10.0")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
-    implementation("androidx.paging:paging-runtime:3.3.2")
+    implementation("androidx.paging:paging-runtime:3.5.0")
     implementation(libs.photoview)
 }
 
